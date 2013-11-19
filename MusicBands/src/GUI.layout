@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="346px" prefWidth="746px">
+  <widget name="tabbedPane" parent="Form" prefHeight="240px" prefWidth="624px" type="TabsDesignInfo">
+    <constraints bottom="58px" left="60px" right="62px" top="48px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <widget name="tabbedPane22" parent="tabbedPane" prefHeight="203px" prefWidth="616px" type="TabsDesignInfo" visible="false">
+    <constraints tabTitle="Группы" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget name="tabbedPane21" parent="tabbedPane" prefHeight="203px" prefWidth="616px" type="TabsDesignInfo" visible="false">
+    <constraints tabTitle="tab1" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget name="tabbedPane1" parent="tabbedPane" prefHeight="203px" prefWidth="616px" type="TabsDesignInfo">
+    <constraints tabTitle="tab0" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget name="tabbedPane2" parent="tabbedPane" prefHeight="203px" prefWidth="616px" type="TabsDesignInfo" visible="false">
+    <constraints tabTitle="tab1" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

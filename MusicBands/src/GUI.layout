@@ -2,17 +2,93 @@
   <widget name="tabbedPane" parent="Form" prefHeight="240px" prefWidth="624px" type="TabsDesignInfo">
     <constraints bottom="58px" left="60px" right="62px" top="48px" type="MarginConstraintsDesignInfo"/>
   </widget>
-  <widget name="tabbedPane22" parent="tabbedPane" prefHeight="203px" prefWidth="616px" type="TabsDesignInfo" visible="false">
+  <widget name="modelGrid1" parent="tabbedPane" prefHeight="202px" prefWidth="616px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138478224457012" field="false"/>
+    </rowsColumnsDesignInfo>
+    <column name="g_ID">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224457012" fieldName="G_ID"/>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+    </column>
+    <column name="yEAR_OF_FOUNDATION">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224457012" fieldName="YEAR_OF_FOUNDATION"/>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+    </column>
+    <column name="c_ID">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224457012" fieldName="C_ID"/>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+    </column>
+    <column name="rATING">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224457012" fieldName="RATING"/>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+    </column>
     <constraints tabTitle="Группы" type="TabsConstraintsDesignInfo"/>
   </widget>
-  <widget name="tabbedPane21" parent="tabbedPane" prefHeight="203px" prefWidth="616px" type="TabsDesignInfo" visible="false">
-    <constraints tabTitle="tab1" type="TabsConstraintsDesignInfo"/>
+  <widget name="modelGrid" parent="tabbedPane" prefHeight="202px" prefWidth="616px" type="DbGridDesignInfo" visible="false">
+    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource/>
+    </rowsColumnsDesignInfo>
+    <constraints tabTitle="Исполнители" type="TabsConstraintsDesignInfo"/>
   </widget>
-  <widget name="tabbedPane1" parent="tabbedPane" prefHeight="203px" prefWidth="616px" type="TabsDesignInfo">
-    <constraints tabTitle="tab0" type="TabsConstraintsDesignInfo"/>
+  <widget name="modelGrid2" parent="tabbedPane" prefHeight="202px" prefWidth="616px" type="DbGridDesignInfo" visible="false">
+    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource/>
+    </rowsColumnsDesignInfo>
+    <constraints tabTitle="Песни" type="TabsConstraintsDesignInfo"/>
   </widget>
-  <widget name="tabbedPane2" parent="tabbedPane" prefHeight="203px" prefWidth="616px" type="TabsDesignInfo" visible="false">
-    <constraints tabTitle="tab1" type="TabsConstraintsDesignInfo"/>
+  <widget name="modelGrid3" parent="tabbedPane" prefHeight="202px" prefWidth="616px" type="DbGridDesignInfo" visible="false">
+    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource/>
+    </rowsColumnsDesignInfo>
+    <constraints tabTitle="Гастрольные туры" type="TabsConstraintsDesignInfo"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>
 </layout>

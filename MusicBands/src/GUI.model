@@ -3,26 +3,26 @@
   <entity Name="COUNTRY" Title="COUNTRY" entityHeight="200" entityIconified="false" entityId="138478224452984" entityLocationX="12" entityLocationY="47" entityWidth="150" tableName="COUNTRY" tableSchemaName=""/>
   <entity Name="LIST_OF_SONGS" Title="LIST_OF_SONGS" entityHeight="200" entityIconified="false" entityId="138478224458274" entityLocationX="330" entityLocationY="20" entityWidth="150" tableName="LIST_OF_SONGS" tableSchemaName=""/>
   <entity Name="MEMBERS_OF_GROUP" Title="MEMBERS_OF_GROUP" entityHeight="200" entityIconified="false" entityId="138478224459219" entityLocationX="490" entityLocationY="20" entityWidth="150" tableName="MEMBERS_OF_GROUP" tableSchemaName=""/>
-  <entity Name="SINGERS" Title="SINGERS" entityHeight="200" entityIconified="false" entityId="138478224461784" entityLocationX="810" entityLocationY="20" entityWidth="150" tableName="SINGERS" tableSchemaName=""/>
   <entity Name="GROUPS" Title="GROUPS" entityHeight="200" entityIconified="false" entityId="138478224457012" entityLocationX="170" entityLocationY="20" entityWidth="150" tableName="GROUPS" tableSchemaName=""/>
+  <entity Name="SINGERS" Title="SINGERS" entityHeight="200" entityIconified="false" entityId="138478224461784" entityLocationX="810" entityLocationY="20" entityWidth="150" tableName="SINGERS" tableSchemaName=""/>
   <entity Name="SCHEDULE_OF_TOUR" Title="SCHEDULE_OF_TOUR" entityHeight="200" entityIconified="false" entityId="138478224460635" entityLocationX="650" entityLocationY="20" entityWidth="150" tableName="SCHEDULE_OF_TOUR" tableSchemaName=""/>
   <entity Name="groupsMembers" Title="GroupsMembers" entityHeight="200" entityIconified="false" entityId="138556087752775" entityLocationX="25" entityLocationY="85" entityWidth="150" queryId="GroupsMembers" tableName="" tableSchemaName=""/>
   <entity Name="TOURS" Title="TOURS" entityHeight="200" entityIconified="false" entityId="138478224463004" entityLocationX="970" entityLocationY="20" entityWidth="150" tableName="TOURS" tableSchemaName=""/>
-  <referenceRelation leftEntityFieldName="C_ID" leftEntityId="138478224457012" rightEntityFieldName="C_ID" rightEntityId="138478224452984"/>
-  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138556087752775" rightEntityFieldName="G_ID" rightEntityId="138478224457012"/>
-  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138478224463004" rightEntityFieldName="G_ID" rightEntityId="138556087752775"/>
-  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138478224458274" rightEntityFieldName="G_ID" rightEntityId="138478224457012"/>
-  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138556087752775" rightEntityFieldName="G_ID" rightEntityId="138556087752775"/>
-  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138478224463004" rightEntityFieldName="G_ID" rightEntityId="138478224457012"/>
-  <referenceRelation leftEntityFieldName="C_ID" leftEntityId="138556087752775" rightEntityFieldName="C_ID" rightEntityId="138556087752775"/>
   <referenceRelation leftEntityFieldName="C_ID" leftEntityId="138556087752775" rightEntityFieldName="C_ID" rightEntityId="138478224452984"/>
-  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138478224459219" rightEntityFieldName="G_ID" rightEntityId="138478224457012"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138556087752775" rightEntityFieldName="G_ID" rightEntityId="138478224457012"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138478224458274" rightEntityFieldName="G_ID" rightEntityId="138478224457012"/>
+  <referenceRelation leftEntityFieldName="C_ID" leftEntityId="138556087752775" rightEntityFieldName="C_ID" rightEntityId="138556087752775"/>
   <referenceRelation leftEntityFieldName="T_ID" leftEntityId="138478224460635" rightEntityFieldName="T_ID" rightEntityId="138478224463004"/>
-  <referenceRelation leftEntityFieldName="C_ID" leftEntityId="138478224457012" rightEntityFieldName="C_ID" rightEntityId="138556087752775"/>
   <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138556087752775" rightEntityFieldName="S_ID" rightEntityId="138556087752775"/>
-  <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138556087752775" rightEntityFieldName="S_ID" rightEntityId="138478224461784"/>
-  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138478224459219" rightEntityFieldName="G_ID" rightEntityId="138556087752775"/>
+  <referenceRelation leftEntityFieldName="C_ID" leftEntityId="138478224457012" rightEntityFieldName="C_ID" rightEntityId="138556087752775"/>
   <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138478224459219" rightEntityFieldName="S_ID" rightEntityId="138556087752775"/>
-  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138478224458274" rightEntityFieldName="G_ID" rightEntityId="138556087752775"/>
+  <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138556087752775" rightEntityFieldName="S_ID" rightEntityId="138478224461784"/>
   <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138478224459219" rightEntityFieldName="S_ID" rightEntityId="138478224461784"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138478224459219" rightEntityFieldName="G_ID" rightEntityId="138478224457012"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138478224458274" rightEntityFieldName="G_ID" rightEntityId="138556087752775"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138478224459219" rightEntityFieldName="G_ID" rightEntityId="138556087752775"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138478224463004" rightEntityFieldName="G_ID" rightEntityId="138556087752775"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138478224463004" rightEntityFieldName="G_ID" rightEntityId="138478224457012"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138556087752775" rightEntityFieldName="G_ID" rightEntityId="138556087752775"/>
+  <referenceRelation leftEntityFieldName="C_ID" leftEntityId="138478224457012" rightEntityFieldName="C_ID" rightEntityId="138478224452984"/>
 </datamodel>

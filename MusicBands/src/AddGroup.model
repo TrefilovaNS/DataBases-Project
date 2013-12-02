@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="groupID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
+    <parameter description="" name="countryID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
+    <parameter description="" name="singersID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="groupsQuery" Title="GroupsQuery" entityHeight="200" entityIconified="false" entityId="138581487270812" entityLocationX="327" entityLocationY="13" entityWidth="150" queryId="GroupsQuery" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="countryID" rightEntityId="138581487270812" rightEntityParameterName="cID"/>
+  <relation leftEntityId="-1" leftEntityParameterName="singersID" rightEntityId="138581487270812" rightEntityParameterName="sID"/>
+  <relation leftEntityId="-1" leftEntityParameterName="groupID" rightEntityId="138581487270812" rightEntityParameterName="gID"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138581487270812" rightEntityFieldName="G_ID" rightEntityId="138581487270812"/>
+  <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138581487270812" rightEntityFieldName="S_ID" rightEntityId="138581487270812"/>
+</datamodel>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="479px" prefWidth="746px">
   <nonvisual name="view" prefHeight="0px" prefWidth="0px" type="DbLabelDesignInfo"/>
+  <widget actionPerformed="button11ActionPerformed" name="button11" parent="Form" prefHeight="48px" prefWidth="158px" text="Сохранить" type="ButtonDesignInfo">
+    <constraints bottom="23px" height="48px" left="324px" type="MarginConstraintsDesignInfo" width="158px"/>
+  </widget>
   <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="48px" prefWidth="158px" text="Удалить" type="ButtonDesignInfo">
-    <constraints bottom="23px" height="48px" left="444px" type="MarginConstraintsDesignInfo" width="158px"/>
+    <constraints bottom="23px" height="48px" right="72px" type="MarginConstraintsDesignInfo" width="158px"/>
   </widget>
   <widget name="tabbedPane" parent="Form" prefHeight="360px" prefWidth="744px" toolTipText="SINGERS" type="TabsDesignInfo">
     <constraints height="360px" left="0px" top="0px" type="MarginConstraintsDesignInfo" width="744px"/>
@@ -13,7 +16,6 @@
     <treeDesignInfo/>
     <column name="Название группы">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138478224457012" fieldName="NAME_OF_GROUP"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -25,10 +27,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
+      <datamodelElement entityId="138478224457012" fieldName="NAME_OF_GROUP"/>
     </column>
     <column name="Дата основания">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138478224457012" fieldName="YEAR_OF_FOUNDATION"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -40,10 +42,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
+      <datamodelElement entityId="138478224457012" fieldName="YEAR_OF_FOUNDATION"/>
     </column>
     <column name="Рейтинг">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138478224457012" fieldName="RATING"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -55,6 +57,7 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
+      <datamodelElement entityId="138478224457012" fieldName="RATING"/>
     </column>
     <constraints tabTitle="Группы" type="TabsConstraintsDesignInfo"/>
   </widget>
@@ -65,7 +68,6 @@
     <treeDesignInfo/>
     <column name="Имя">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138478224461784" fieldName="FIRSTNAME"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -77,10 +79,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
+      <datamodelElement entityId="138478224461784" fieldName="FIRSTNAME"/>
     </column>
     <column name="Фамилия">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138478224461784" fieldName="LASTNAME"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -92,10 +94,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
+      <datamodelElement entityId="138478224461784" fieldName="LASTNAME"/>
     </column>
     <column name="Год рождения">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138478224461784" fieldName="YEAR_OF_BIRHDAY"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -107,6 +109,7 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
+      <datamodelElement entityId="138478224461784" fieldName="YEAR_OF_BIRHDAY"/>
     </column>
     <constraints tabTitle="Исполнители" tabTooltipText="&lt;нулевое значение&gt;" type="TabsConstraintsDesignInfo"/>
   </widget>
@@ -117,7 +120,6 @@
     <treeDesignInfo/>
     <column name="Название песни">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138478224458274" fieldName="NAME_OF_SONG"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -129,10 +131,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
+      <datamodelElement entityId="138478224458274" fieldName="NAME_OF_SONG"/>
     </column>
     <column name="Композитор">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138478224458274" fieldName="COMPOSER"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -144,10 +146,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
+      <datamodelElement entityId="138478224458274" fieldName="COMPOSER"/>
     </column>
     <column name="Автор текста">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138478224458274" fieldName="SCRIPTWRITER"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -159,6 +161,7 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
+      <datamodelElement entityId="138478224458274" fieldName="SCRIPTWRITER"/>
     </column>
     <constraints tabTitle="Песни" type="TabsConstraintsDesignInfo"/>
   </widget>
@@ -169,7 +172,6 @@
     <treeDesignInfo/>
     <column name="Название тура">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138478224460635" fieldName="NAME_OF_TOWN"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -181,10 +183,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
+      <datamodelElement entityId="138478224460635" fieldName="NAME_OF_TOWN"/>
     </column>
     <column name="Дата начала">
       <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138478224460635" fieldName="STARTDATE"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -196,10 +198,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
+      <datamodelElement entityId="138478224460635" fieldName="STARTDATE"/>
     </column>
     <column name="Дата окончания">
       <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138478224460635" fieldName="ENDDATE"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -211,10 +213,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
+      <datamodelElement entityId="138478224460635" fieldName="ENDDATE"/>
     </column>
     <column name="Средняя цена">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138478224460635" fieldName="AVERAGE_PRICE"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -226,6 +228,7 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
+      <datamodelElement entityId="138478224460635" fieldName="AVERAGE_PRICE"/>
     </column>
     <constraints tabTitle="Гастрольные туры" type="TabsConstraintsDesignInfo"/>
   </widget>
@@ -433,7 +436,7 @@
     <constraints tabTitle="Все данные о группах" type="TabsConstraintsDesignInfo"/>
   </widget>
   <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="48px" prefWidth="230px" text="Добавить новый элемент" type="ButtonDesignInfo">
-    <constraints bottom="23px" height="48px" left="168px" type="MarginConstraintsDesignInfo" width="230px"/>
+    <constraints bottom="23px" height="48px" left="60px" type="MarginConstraintsDesignInfo" width="230px"/>
   </widget>
   <widget name="label" parent="Form" prefHeight="24px" prefWidth="84px" text="Поиск" type="LabelDesignInfo">
     <constraints bottom="83px" height="24px" left="24px" type="MarginConstraintsDesignInfo" width="84px"/>

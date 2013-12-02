@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="MEMBERS_OF_GROUP" entityHeight="200" entityIconified="false" entityId="138581595127746" entityLocationX="149" entityLocationY="13" entityWidth="150" tableAlias="t1" tableName="MEMBERS_OF_GROUP" tableSchemaName=""/>
+</datamodel>

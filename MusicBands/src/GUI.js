@@ -14,3 +14,7 @@ function buttonActionPerformed(evt) {//GEN-FIRST:event_buttonActionPerformed
 function button1ActionPerformed(evt) {//GEN-FIRST:event_button1ActionPerformed
 	// TODO Добавьте свой код:
 }//GEN-LAST:event_button1ActionPerformed
+
+function button11ActionPerformed(evt) {//GEN-FIRST:event_button11ActionPerformed
+	// TODO Добавьте свой код:
+}//GEN-LAST:event_button11ActionPerformed

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="cID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
+    <parameter description="" name="gID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
+    <parameter description="" name="sID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="COUNTRY" entityHeight="200" entityIconified="false" entityId="138581276474866" entityLocationX="604" entityLocationY="7" entityWidth="150" tableAlias="t2" tableName="COUNTRY" tableSchemaName=""/>
+  <entity Title="GROUPS" entityHeight="200" entityIconified="false" entityId="138581273505801" entityLocationX="203" entityLocationY="-2" entityWidth="150" tableAlias="t1" tableName="GROUPS" tableSchemaName=""/>
+  <entity Title="SINGERS" entityHeight="200" entityIconified="false" entityId="138581277833960" entityLocationX="121" entityLocationY="131" entityWidth="150" tableAlias="t3" tableName="SINGERS" tableSchemaName=""/>
+  <entity Title="MEMBERS_OF_GROUP" entityHeight="200" entityIconified="false" entityId="138581274411002" entityLocationX="418" entityLocationY="3" entityWidth="150" tableAlias="t" tableName="MEMBERS_OF_GROUP" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="cID" rightEntityFieldName="C_ID" rightEntityId="138581276474866"/>
+  <relation leftEntityId="-1" leftEntityParameterName="gID" rightEntityFieldName="G_ID" rightEntityId="138581273505801"/>
+</datamodel>

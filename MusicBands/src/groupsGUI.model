@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="country" Title="country" entityHeight="200" entityIconified="false" entityId="138581592355040" entityLocationX="374" entityLocationY="20" entityWidth="150" queryId="country" tableName="" tableSchemaName=""/>
+  <entity Name="singers" Title="singers" entityHeight="200" entityIconified="false" entityId="138581593145352" entityLocationX="542" entityLocationY="20" entityWidth="150" queryId="singers" tableName="" tableSchemaName=""/>
+  <entity Name="members" Title="members" entityHeight="200" entityIconified="false" entityId="138581597030983" entityLocationX="211" entityLocationY="228" entityWidth="150" queryId="members" tableName="" tableSchemaName=""/>
+  <entity Name="groups" Title="groups" entityHeight="200" entityIconified="false" entityId="138581591671507" entityLocationX="167" entityLocationY="15" entityWidth="150" queryId="groups" tableName="" tableSchemaName=""/>
+  <entity Name="groupsQuery" Title="GroupsQuery" entityHeight="200" entityIconified="false" entityId="138581701251389" entityLocationX="33" entityLocationY="109" entityWidth="150" queryId="GroupsQuery" tableName="" tableSchemaName=""/>
+  <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138581597030983" rightEntityFieldName="S_ID" rightEntityId="138581701251389"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138581701251389" rightEntityFieldName="G_ID" rightEntityId="138581591671507"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138581597030983" rightEntityFieldName="G_ID" rightEntityId="138581591671507"/>
+  <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138581701251389" rightEntityFieldName="S_ID" rightEntityId="138581701251389"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138581701251389" rightEntityFieldName="G_ID" rightEntityId="138581701251389"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138581597030983" rightEntityFieldName="G_ID" rightEntityId="138581701251389"/>
+  <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138581701251389" rightEntityFieldName="S_ID" rightEntityId="138581593145352"/>
+  <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138581597030983" rightEntityFieldName="S_ID" rightEntityId="138581593145352"/>
+</datamodel>

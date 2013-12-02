@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="204px" prefWidth="400px">
+  <widget name="modelFormattedField" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138561558746548" fieldName="NAME_OF_COUNTRY"/>
+    <constraints height="28px" left="108px" top="48px" type="MarginConstraintsDesignInfo" width="216px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="30px" prefWidth="62px" text="button" type="ButtonDesignInfo">
+    <constraints bottom="18px" height="30px" right="50px" type="MarginConstraintsDesignInfo" width="62px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

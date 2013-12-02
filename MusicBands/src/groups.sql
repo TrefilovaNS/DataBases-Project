@@ -1,6 +1,6 @@
 /**
  *
- * @author natali
+ * @author natalia
  * @name groups
  */ 
 Select * 

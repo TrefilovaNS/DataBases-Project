@@ -1,7 +1,8 @@
 /**
  *
  * @author natalia
- * @name country
+ * @name CountryByID
  */ 
 Select * 
 From COUNTRY t1
+ Where :cID = t1.C_ID

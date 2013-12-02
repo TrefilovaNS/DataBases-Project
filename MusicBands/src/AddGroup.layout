@@ -19,8 +19,8 @@
     <datamodelElement entityId="138581487270812" fieldName="NAME_OF_GROUP"/>
     <constraints height="27px" left="132px" top="48px" type="MarginConstraintsDesignInfo" width="100px"/>
   </widget>
-  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="29px" prefWidth="62px" text="button" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" left="168px" type="MarginConstraintsDesignInfo" width="62px"/>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="29px" prefWidth="144px" text="Сохранить" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" left="120px" type="MarginConstraintsDesignInfo" width="144px"/>
   </widget>
   <widget name="label" parent="Form" prefHeight="17px" prefWidth="96px" text="Название" type="LabelDesignInfo">
     <constraints height="17px" left="36px" top="48px" type="MarginConstraintsDesignInfo" width="96px"/>

@@ -3,6 +3,7 @@
  * @author natali
  * @name test
  */ 
-Select COMPOSER, SCRIPTWRITER, NAME_OF_SONG, DATE_OF_SONG, NAME_OF_GROUP
-From GROUPS t, LIST_OF_SONGS t1
-where t.G_ID = t1.G_ID
+Select COMPOSER, SCRIPTWRITER, NAME_OF_SONG
+, DATE_OF_SONG, NAME_OF_GROUP 
+From GROUPS t
+ Where :Param1 = t.NAME_OF_GROUP

@@ -4,8 +4,12 @@
  * @name All
  */ 
 Select * 
-From country q1
- Inner Join groups q on q1.C_ID = q.C_ID
-, singers q2
- Inner Join members q3 on q.G_ID = q3.G_ID
- and q3.S_ID = q2.S_ID
+From GROUPS t1
+, COUNTRY t
+, MEMBERS_OF_GROUP t2
+, LIST_OF_SONGS t3
+, SINGERS t4
+ Where t.C_ID = t1.C_ID
+ and t1.G_ID = t2.G_ID
+ and t4.S_ID = t2.S_ID
+ and t3.G_ID = t1.G_ID

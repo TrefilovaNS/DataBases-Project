@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><datamodel>
   <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
-  <entity Title="singers" entityHeight="200" entityIconified="false" entityId="138599294412178" entityLocationX="555" entityLocationY="14" entityWidth="150" queryId="singers" tableAlias="q2" tableName="" tableSchemaName=""/>
-  <entity Title="country" entityHeight="200" entityIconified="false" entityId="138599292409886" entityLocationX="186" entityLocationY="12" entityWidth="150" queryId="country" tableAlias="q1" tableName="" tableSchemaName=""/>
-  <entity Title="members" entityHeight="200" entityIconified="false" entityId="138599295339511" entityLocationX="282" entityLocationY="114" entityWidth="150" queryId="members" tableAlias="q3" tableName="" tableSchemaName=""/>
-  <entity Title="groups" entityHeight="200" entityIconified="false" entityId="138599293675721" entityLocationX="362" entityLocationY="8" entityWidth="150" queryId="groups" tableAlias="q" tableName="" tableSchemaName=""/>
-  <relation leftEntityFieldName="C_ID" leftEntityId="138599292409886" rightEntityFieldName="C_ID" rightEntityId="138599293675721"/>
-  <relation leftEntityFieldName="G_ID" leftEntityId="138599293675721" rightEntityFieldName="G_ID" rightEntityId="138599295339511"/>
-  <relation leftEntityFieldName="S_ID" leftEntityId="138599295339511" rightEntityFieldName="S_ID" rightEntityId="138599294412178"/>
+  <entity Title="LIST_OF_SONGS" entityHeight="200" entityIconified="false" entityId="138599520734767" entityLocationX="339" entityLocationY="32" entityWidth="150" tableAlias="t3" tableName="LIST_OF_SONGS" tableSchemaName=""/>
+  <entity Title="SINGERS" entityHeight="200" entityIconified="false" entityId="138599521588244" entityLocationX="531" entityLocationY="20" entityWidth="150" tableAlias="t4" tableName="SINGERS" tableSchemaName=""/>
+  <entity Title="COUNTRY" entityHeight="200" entityIconified="false" entityId="138599519278106" entityLocationX="145" entityLocationY="14" entityWidth="150" tableAlias="t" tableName="COUNTRY" tableSchemaName=""/>
+  <entity Title="GROUPS" entityHeight="200" entityIconified="false" entityId="138599518521682" entityLocationX="39" entityLocationY="5" entityWidth="150" tableAlias="t1" tableName="GROUPS" tableSchemaName=""/>
+  <entity Title="MEMBERS_OF_GROUP" entityHeight="200" entityIconified="false" entityId="138599519983669" entityLocationX="226" entityLocationY="22" entityWidth="150" tableAlias="t2" tableName="MEMBERS_OF_GROUP" tableSchemaName=""/>
+  <relation leftEntityFieldName="G_ID" leftEntityId="138599520734767" rightEntityFieldName="G_ID" rightEntityId="138599518521682"/>
+  <relation leftEntityFieldName="S_ID" leftEntityId="138599521588244" rightEntityFieldName="S_ID" rightEntityId="138599519983669"/>
+  <relation leftEntityFieldName="C_ID" leftEntityId="138599519278106" rightEntityFieldName="C_ID" rightEntityId="138599518521682"/>
+  <relation leftEntityFieldName="G_ID" leftEntityId="138599518521682" rightEntityFieldName="G_ID" rightEntityId="138599519983669"/>
 </datamodel>

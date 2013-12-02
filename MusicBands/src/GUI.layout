@@ -1,21 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="479px" prefWidth="746px">
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="479px" prefWidth="955px">
   <nonvisual name="view" prefHeight="0px" prefWidth="0px" type="DbLabelDesignInfo"/>
   <widget actionPerformed="button11ActionPerformed" name="button11" parent="Form" prefHeight="48px" prefWidth="158px" text="Сохранить" type="ButtonDesignInfo">
-    <constraints bottom="23px" height="48px" left="324px" type="MarginConstraintsDesignInfo" width="158px"/>
+    <constraints bottom="23px" height="48px" left="432px" type="MarginConstraintsDesignInfo" width="158px"/>
   </widget>
   <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="48px" prefWidth="158px" text="Удалить" type="ButtonDesignInfo">
-    <constraints bottom="23px" height="48px" right="72px" type="MarginConstraintsDesignInfo" width="158px"/>
+    <constraints bottom="23px" height="48px" left="600px" type="MarginConstraintsDesignInfo" width="158px"/>
   </widget>
-  <widget name="tabbedPane" parent="Form" prefHeight="360px" prefWidth="744px" toolTipText="SINGERS" type="TabsDesignInfo">
-    <constraints height="360px" left="0px" top="0px" type="MarginConstraintsDesignInfo" width="744px"/>
+  <widget name="tabbedPane" parent="Form" prefHeight="360px" prefWidth="948px" toolTipText="SINGERS" type="TabsDesignInfo">
+    <constraints bottom="119px" left="0px" right="7px" top="0px" type="MarginConstraintsDesignInfo"/>
   </widget>
-  <widget name="modelGrid1" parent="tabbedPane" prefHeight="323px" prefWidth="736px" type="DbGridDesignInfo">
+  <widget name="modelGrid1" parent="tabbedPane" prefHeight="323px" prefWidth="940px" type="DbGridDesignInfo">
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138478224457012" field="false"/>
     </rowsColumnsDesignInfo>
     <treeDesignInfo/>
     <column name="Название группы">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224457012" fieldName="NAME_OF_GROUP"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -27,10 +28,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138478224457012" fieldName="NAME_OF_GROUP"/>
     </column>
     <column name="Дата основания">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224457012" fieldName="YEAR_OF_FOUNDATION"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -42,10 +43,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138478224457012" fieldName="YEAR_OF_FOUNDATION"/>
     </column>
     <column name="Рейтинг">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224457012" fieldName="RATING"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -57,17 +58,17 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138478224457012" fieldName="RATING"/>
     </column>
     <constraints tabTitle="Группы" type="TabsConstraintsDesignInfo"/>
   </widget>
-  <widget name="modelGrid" parent="tabbedPane" prefHeight="323px" prefWidth="736px" type="DbGridDesignInfo" visible="false">
+  <widget name="modelGrid" parent="tabbedPane" prefHeight="323px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138478224461784" field="false"/>
     </rowsColumnsDesignInfo>
     <treeDesignInfo/>
     <column name="Имя">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224461784" fieldName="FIRSTNAME"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -79,10 +80,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138478224461784" fieldName="FIRSTNAME"/>
     </column>
     <column name="Фамилия">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224461784" fieldName="LASTNAME"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -94,10 +95,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138478224461784" fieldName="LASTNAME"/>
     </column>
     <column name="Год рождения">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224461784" fieldName="YEAR_OF_BIRHDAY"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -109,17 +110,17 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138478224461784" fieldName="YEAR_OF_BIRHDAY"/>
     </column>
     <constraints tabTitle="Исполнители" tabTooltipText="&lt;нулевое значение&gt;" type="TabsConstraintsDesignInfo"/>
   </widget>
-  <widget name="modelGrid2" parent="tabbedPane" prefHeight="323px" prefWidth="736px" type="DbGridDesignInfo" visible="false">
+  <widget name="modelGrid2" parent="tabbedPane" prefHeight="323px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138478224458274" field="false"/>
     </rowsColumnsDesignInfo>
     <treeDesignInfo/>
     <column name="Название песни">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224458274" fieldName="NAME_OF_SONG"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -131,10 +132,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138478224458274" fieldName="NAME_OF_SONG"/>
     </column>
     <column name="Композитор">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224458274" fieldName="COMPOSER"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -146,10 +147,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138478224458274" fieldName="COMPOSER"/>
     </column>
     <column name="Автор текста">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224458274" fieldName="SCRIPTWRITER"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -161,17 +162,17 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138478224458274" fieldName="SCRIPTWRITER"/>
     </column>
     <constraints tabTitle="Песни" type="TabsConstraintsDesignInfo"/>
   </widget>
-  <widget name="modelGrid3" parent="tabbedPane" prefHeight="323px" prefWidth="736px" type="DbGridDesignInfo" visible="false">
+  <widget name="modelGrid3" parent="tabbedPane" prefHeight="323px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138478224460635" field="false"/>
     </rowsColumnsDesignInfo>
     <treeDesignInfo/>
     <column name="Название тура">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224460635" fieldName="NAME_OF_TOWN"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -183,10 +184,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138478224460635" fieldName="NAME_OF_TOWN"/>
     </column>
     <column name="Дата начала">
       <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224460635" fieldName="STARTDATE"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -198,10 +199,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138478224460635" fieldName="STARTDATE"/>
     </column>
     <column name="Дата окончания">
       <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224460635" fieldName="ENDDATE"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -213,10 +214,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138478224460635" fieldName="ENDDATE"/>
     </column>
     <column name="Средняя цена">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138478224460635" fieldName="AVERAGE_PRICE"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -228,143 +229,17 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138478224460635" fieldName="AVERAGE_PRICE"/>
     </column>
     <constraints tabTitle="Гастрольные туры" type="TabsConstraintsDesignInfo"/>
   </widget>
-  <widget name="modelGrid4" parent="tabbedPane" prefHeight="323px" prefWidth="736px" type="DbGridDesignInfo" visible="false">
+  <widget name="modelGrid4" parent="tabbedPane" prefHeight="323px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
     <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="138556087752775" field="false"/>
+      <rowsDatasource entityId="138599566976615" field="false"/>
     </rowsColumnsDesignInfo>
     <treeDesignInfo/>
-    <column name="c_ID">
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="nAME_OF_COUNTRY">
+    <column name="nAME_OF_GROUP">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="s_ID">
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="fIRSTNAME">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="lASTNAME">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="yEAR_OF_BIRHDAY">
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="mEMBERS_OF_GROUP_ID">
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="g_ID">
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="s_ID1">
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="g_ID1">
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599566976615" fieldName="NAME_OF_GROUP"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -379,6 +254,7 @@
     </column>
     <column name="yEAR_OF_FOUNDATION">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599566976615" fieldName="YEAR_OF_FOUNDATION"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -391,8 +267,114 @@
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
-    <column name="c_ID1">
+    <column name="nAME_OF_COUNTRY">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599566976615" fieldName="NAME_OF_COUNTRY"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="fIRSTNAME">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599566976615" fieldName="FIRSTNAME"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="lASTNAME">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599566976615" fieldName="LASTNAME"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="yEAR_OF_BIRHDAY">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599566976615" fieldName="YEAR_OF_BIRHDAY"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="nAME_OF_SONG">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599566976615" fieldName="NAME_OF_SONG"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="cOMPOSER">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599566976615" fieldName="COMPOSER"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="sCRIPTWRITER">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599566976615" fieldName="SCRIPTWRITER"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="dATE_OF_SONG">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599566976615" fieldName="DATE_OF_SONG"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -407,20 +389,7 @@
     </column>
     <column name="rATING">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="nAME_OF_GROUP">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599566976615" fieldName="RATING"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -435,17 +404,331 @@
     </column>
     <constraints tabTitle="Все данные о группах" type="TabsConstraintsDesignInfo"/>
   </widget>
+  <widget name="modelGrid5" parent="tabbedPane" prefHeight="323px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138599654205803" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+    <column name="t_ID">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599654205803" fieldName="T_ID"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="g_ID3">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599654205803" fieldName="G_ID"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="nAME_OF_TOUR">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599654205803" fieldName="NAME_OF_TOUR"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="g_ID4">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599654205803" fieldName="G_ID"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="yEAR_OF_FOUNDATION1">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599654205803" fieldName="YEAR_OF_FOUNDATION"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="c_ID2">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599654205803" fieldName="C_ID"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="rATING1">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599654205803" fieldName="RATING"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="nAME_OF_GROUP1">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599654205803" fieldName="NAME_OF_GROUP"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="sCHEDULE_OF_TOUR_ID">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599654205803" fieldName="SCHEDULE_OF_TOUR_ID"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="t_ID1">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599654205803" fieldName="T_ID"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="nAME_OF_TOWN">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599654205803" fieldName="NAME_OF_TOWN"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="sTARTDATE">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599654205803" fieldName="STARTDATE"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="eNDDATE">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599654205803" fieldName="ENDDATE"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="aVERAGE_PRICE">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599654205803" fieldName="AVERAGE_PRICE"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <constraints tabTitle="tab5" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget name="modelGrid6" parent="tabbedPane" prefHeight="323px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138599722833125" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+    <column name="nAME_OF_GROUP2">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599722833125" fieldName="NAME_OF_GROUP"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="Год основания">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599722833125" fieldName="YEAR_OF_FOUNDATION"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="fIRSTNAME1">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599722833125" fieldName="FIRSTNAME"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="lASTNAME1">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599722833125" fieldName="LASTNAME"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="yEAR_OF_BIRHDAY1">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599722833125" fieldName="YEAR_OF_BIRHDAY"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="rATING2">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138599722833125" fieldName="RATING"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <constraints tabTitle="Группы и исполнители" type="TabsConstraintsDesignInfo"/>
+  </widget>
   <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="48px" prefWidth="230px" text="Добавить новый элемент" type="ButtonDesignInfo">
-    <constraints bottom="23px" height="48px" left="60px" type="MarginConstraintsDesignInfo" width="230px"/>
+    <constraints bottom="23px" height="48px" left="192px" type="MarginConstraintsDesignInfo" width="230px"/>
   </widget>
   <widget name="label" parent="Form" prefHeight="24px" prefWidth="84px" text="Поиск" type="LabelDesignInfo">
     <constraints bottom="83px" height="24px" left="24px" type="MarginConstraintsDesignInfo" width="84px"/>
   </widget>
-  <widget name="textField" parent="Form" prefHeight="27px" prefWidth="516px" type="TextFieldDesignInfo">
-    <constraints bottom="80px" height="27px" left="108px" type="MarginConstraintsDesignInfo" width="516px"/>
+  <widget name="textField" parent="Form" prefHeight="27px" prefWidth="720px" type="TextFieldDesignInfo">
+    <constraints bottom="80px" height="27px" left="96px" type="MarginConstraintsDesignInfo" width="720px"/>
   </widget>
-  <widget name="button2" parent="Form" prefHeight="29px" prefWidth="71px" text="ОК" type="ButtonDesignInfo">
-    <constraints bottom="78px" height="29px" right="39px" type="MarginConstraintsDesignInfo" width="71px"/>
+  <widget actionPerformed="button2ActionPerformed" name="button2" parent="Form" prefHeight="29px" prefWidth="71px" text="ОК" type="ButtonDesignInfo">
+    <constraints bottom="78px" height="29px" right="32px" type="MarginConstraintsDesignInfo" width="71px"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>
 </layout>

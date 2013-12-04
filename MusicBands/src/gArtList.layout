@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="300px" prefWidth="400px">
+  <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="216px" prefWidth="372px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138613387974137" field="false"/>
+    </rowsColumnsDesignInfo>
+    <column name="fIRSTNAME">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138613387974137" fieldName="FIRSTNAME"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="lASTNAME">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138613387974137" fieldName="LASTNAME"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="yEAR_OF_BIRHDAY">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138613387974137" fieldName="YEAR_OF_BIRHDAY"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <treeDesignInfo/>
+    <constraints height="216px" left="12px" top="60px" type="MarginConstraintsDesignInfo" width="372px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

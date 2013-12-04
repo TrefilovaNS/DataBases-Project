@@ -9,11 +9,10 @@
   <widget name="tabbedPane" parent="Form" prefHeight="360px" prefWidth="948px" toolTipText="SINGERS" type="TabsDesignInfo">
     <constraints bottom="119px" left="0px" right="7px" top="0px" type="MarginConstraintsDesignInfo"/>
   </widget>
-  <widget name="modelGrid1" parent="tabbedPane" prefHeight="323px" prefWidth="940px" type="DbGridDesignInfo">
+  <widget name="modelGrid1" parent="tabbedPane" prefHeight="322px" prefWidth="940px" type="DbGridDesignInfo">
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138478224457012" field="false"/>
     </rowsColumnsDesignInfo>
-    <treeDesignInfo/>
     <column name="Название группы">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138478224457012" fieldName="NAME_OF_GROUP"/>
@@ -59,13 +58,13 @@
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
+    <treeDesignInfo/>
     <constraints tabTitle="Группы" type="TabsConstraintsDesignInfo"/>
   </widget>
-  <widget name="modelGrid" parent="tabbedPane" prefHeight="323px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
+  <widget name="modelGrid" parent="tabbedPane" prefHeight="322px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138478224461784" field="false"/>
     </rowsColumnsDesignInfo>
-    <treeDesignInfo/>
     <column name="Имя">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138478224461784" fieldName="FIRSTNAME"/>
@@ -111,13 +110,13 @@
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
+    <treeDesignInfo/>
     <constraints tabTitle="Исполнители" tabTooltipText="&lt;нулевое значение&gt;" type="TabsConstraintsDesignInfo"/>
   </widget>
-  <widget name="modelGrid2" parent="tabbedPane" prefHeight="323px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
+  <widget name="modelGrid2" parent="tabbedPane" prefHeight="322px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138478224458274" field="false"/>
     </rowsColumnsDesignInfo>
-    <treeDesignInfo/>
     <column name="Название песни">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138478224458274" fieldName="NAME_OF_SONG"/>
@@ -163,13 +162,13 @@
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
+    <treeDesignInfo/>
     <constraints tabTitle="Песни" type="TabsConstraintsDesignInfo"/>
   </widget>
-  <widget name="modelGrid3" parent="tabbedPane" prefHeight="323px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
+  <widget name="modelGrid3" parent="tabbedPane" prefHeight="322px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138478224460635" field="false"/>
     </rowsColumnsDesignInfo>
-    <treeDesignInfo/>
     <column name="Название тура">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138478224460635" fieldName="NAME_OF_TOWN"/>
@@ -230,13 +229,13 @@
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
+    <treeDesignInfo/>
     <constraints tabTitle="Гастрольные туры" type="TabsConstraintsDesignInfo"/>
   </widget>
-  <widget name="modelGrid4" parent="tabbedPane" prefHeight="323px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
+  <widget name="modelGrid4" parent="tabbedPane" prefHeight="322px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138599566976615" field="false"/>
     </rowsColumnsDesignInfo>
-    <treeDesignInfo/>
     <column name="nAME_OF_GROUP">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138599566976615" fieldName="NAME_OF_GROUP"/>
@@ -402,13 +401,13 @@
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
+    <treeDesignInfo/>
     <constraints tabTitle="Все данные о группах" type="TabsConstraintsDesignInfo"/>
   </widget>
-  <widget name="modelGrid5" parent="tabbedPane" prefHeight="323px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
+  <widget name="modelGrid5" parent="tabbedPane" prefHeight="322px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138599654205803" field="false"/>
     </rowsColumnsDesignInfo>
-    <treeDesignInfo/>
     <column name="t_ID">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138599654205803" fieldName="T_ID"/>
@@ -619,13 +618,13 @@
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
+    <treeDesignInfo/>
     <constraints tabTitle="tab5" type="TabsConstraintsDesignInfo"/>
   </widget>
-  <widget name="modelGrid6" parent="tabbedPane" prefHeight="323px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
+  <widget name="modelGrid6" parent="tabbedPane" prefHeight="322px" prefWidth="940px" type="DbGridDesignInfo" visible="false">
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138599722833125" field="false"/>
     </rowsColumnsDesignInfo>
-    <treeDesignInfo/>
     <column name="nAME_OF_GROUP2">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138599722833125" fieldName="NAME_OF_GROUP"/>
@@ -716,6 +715,7 @@
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
+    <treeDesignInfo/>
     <constraints tabTitle="Группы и исполнители" type="TabsConstraintsDesignInfo"/>
   </widget>
   <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="48px" prefWidth="230px" text="Добавить новый элемент" type="ButtonDesignInfo">

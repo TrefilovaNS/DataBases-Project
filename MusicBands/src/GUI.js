@@ -22,7 +22,7 @@ function button11ActionPerformed(evt) {//GEN-FIRST:event_button11ActionPerformed
 }//GEN-LAST:event_button11ActionPerformed
 
 function button2ActionPerformed(evt) {//GEN-FIRST:event_button2ActionPerformed
-	  Param1="%" + textField.text + "%";
+	Param1="%" + textField.text + "%";
         test.requery();
         test.last();
 }//GEN-LAST:event_button2ActionPerformed

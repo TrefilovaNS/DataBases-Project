@@ -1,19 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="692px" prefWidth="721px">
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="692px" prefWidth="939px">
   <widget name="label" parent="Form" prefHeight="17px" prefWidth="612px" text="Выберите вкладку в зависимости от того, какой элемент хотите добавить в базу" type="LabelDesignInfo">
     <constraints height="17px" left="24px" top="12px" type="MarginConstraintsDesignInfo" width="612px"/>
   </widget>
-  <widget name="tabbedPane" parent="Form" prefHeight="612px" prefWidth="648px" type="TabsDesignInfo">
+  <widget name="tabbedPane" parent="Form" prefHeight="612px" prefWidth="866px" type="TabsDesignInfo">
     <constraints height="612px" left="24px" right="49px" top="48px" type="MarginConstraintsDesignInfo"/>
   </widget>
-  <widget name="Группа" parent="tabbedPane" prefHeight="575px" prefWidth="640px" type="PanelDesignInfo">
+  <widget name="Группа" parent="tabbedPane" prefHeight="574px" prefWidth="858px" type="PanelDesignInfo">
     <layout type="MarginLayoutDesignInfo"/>
     <constraints tabTitle="Группа" type="TabsConstraintsDesignInfo"/>
   </widget>
   <widget actionPerformed="button1ActionPerformed" name="button1" parent="Группа" prefHeight="29px" prefWidth="132px" text="Отмена" type="ButtonDesignInfo">
-    <constraints bottom="30px" height="29px" left="336px" type="MarginConstraintsDesignInfo" width="132px"/>
+    <constraints bottom="149px" height="29px" right="-4px" type="MarginConstraintsDesignInfo" width="132px"/>
   </widget>
   <widget name="modelCombo312" parent="Группа" prefHeight="27px" prefWidth="72px" type="DbComboDesignInfo">
-    <constraints bottom="80px" height="27px" right="136px" type="MarginConstraintsDesignInfo" width="72px"/>
+    <valueField entityId="-1" fieldName="Param1"/>
+    <datamodelElement entityId="138613158195210" fieldName="RATING"/>
+    <constraints bottom="79px" height="27px" left="432px" type="MarginConstraintsDesignInfo" width="72px"/>
   </widget>
   <widget name="modelCombo311" parent="Группа" prefHeight="27px" prefWidth="336px" type="DbComboDesignInfo">
     <constraints bottom="128px" height="27px" left="168px" type="MarginConstraintsDesignInfo" width="336px"/>
@@ -70,37 +72,43 @@
     <constraints height="27px" left="168px" top="228px" type="MarginConstraintsDesignInfo" width="96px"/>
   </widget>
   <widget actionPerformed="ДобавитьActionPerformed" name="Добавить" parent="Группа" prefHeight="29px" prefWidth="132px" text="Добавить" type="ButtonDesignInfo">
-    <constraints bottom="30px" height="29px" left="180px" type="MarginConstraintsDesignInfo" width="132px"/>
+    <constraints bottom="149px" height="29px" left="528px" type="MarginConstraintsDesignInfo" width="132px"/>
   </widget>
-  <widget name="Исполнитель" parent="tabbedPane" prefHeight="575px" prefWidth="640px" type="PanelDesignInfo" visible="false">
+  <widget name="Исполнитель" parent="tabbedPane" prefHeight="574px" prefWidth="858px" type="PanelDesignInfo" visible="false">
     <layout type="MarginLayoutDesignInfo"/>
     <constraints tabTitle="Исполнитель" type="TabsConstraintsDesignInfo"/>
   </widget>
   <widget actionPerformed="button11ActionPerformed" name="button11" parent="Исполнитель" prefHeight="29px" prefWidth="132px" text="Отмена" type="ButtonDesignInfo">
-    <constraints bottom="20px" height="29px" left="346px" type="MarginConstraintsDesignInfo" width="132px"/>
+    <constraints height="29px" right="30px" top="48px" type="MarginConstraintsDesignInfo" width="132px"/>
   </widget>
   <widget actionPerformed="button2ActionPerformed" name="button2" parent="Исполнитель" prefHeight="29px" prefWidth="132px" text="Добавить" type="ButtonDesignInfo">
-    <constraints bottom="20px" height="29px" left="190px" type="MarginConstraintsDesignInfo" width="132px"/>
-  </widget>
-  <widget name="textField12" parent="Исполнитель" prefHeight="27px" prefWidth="336px" type="TextFieldDesignInfo">
-    <constraints height="27px" left="180px" top="132px" type="MarginConstraintsDesignInfo" width="336px"/>
+    <constraints height="29px" left="540px" top="48px" type="MarginConstraintsDesignInfo" width="132px"/>
   </widget>
   <widget name="label112" parent="Исполнитель" prefHeight="24px" prefWidth="134px" text="Год рождения" type="LabelDesignInfo">
     <constraints height="24px" left="36px" top="132px" type="MarginConstraintsDesignInfo" width="134px"/>
   </widget>
-  <widget name="textField11" parent="Исполнитель" prefHeight="27px" prefWidth="336px" type="TextFieldDesignInfo">
-    <constraints height="27px" left="180px" top="84px" type="MarginConstraintsDesignInfo" width="336px"/>
-  </widget>
   <widget name="label111" parent="Исполнитель" prefHeight="24px" prefWidth="134px" text="Фамилия" type="LabelDesignInfo">
     <constraints height="24px" left="36px" top="84px" type="MarginConstraintsDesignInfo" width="134px"/>
-  </widget>
-  <widget name="textField1" parent="Исполнитель" prefHeight="27px" prefWidth="336px" type="TextFieldDesignInfo">
-    <constraints height="27px" left="180px" top="36px" type="MarginConstraintsDesignInfo" width="336px"/>
   </widget>
   <widget name="label11" parent="Исполнитель" prefHeight="24px" prefWidth="134px" text="Имя" type="LabelDesignInfo">
     <constraints height="24px" left="36px" top="36px" type="MarginConstraintsDesignInfo" width="134px"/>
   </widget>
-  <widget name="Песня" parent="tabbedPane" prefHeight="575px" prefWidth="640px" type="PanelDesignInfo" visible="false">
+  <widget name="modelFormattedField" parent="Исполнитель" prefHeight="28px" prefWidth="336px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138613334096605" fieldName="FIRSTNAME"/>
+    <constraints height="28px" left="180px" top="36px" type="MarginConstraintsDesignInfo" width="336px"/>
+  </widget>
+  <widget name="modelFormattedField1" parent="Исполнитель" prefHeight="28px" prefWidth="336px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138613334096605" fieldName="LASTNAME"/>
+    <constraints height="28px" left="180px" top="84px" type="MarginConstraintsDesignInfo" width="336px"/>
+  </widget>
+  <widget name="modelFormattedField2" parent="Исполнитель" prefHeight="28px" prefWidth="100px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138613334096605" fieldName="YEAR_OF_BIRHDAY"/>
+    <constraints height="28px" left="180px" top="132px" type="MarginConstraintsDesignInfo" width="100px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Исполнитель" prefHeight="30px" prefWidth="62px" text="button" type="ButtonDesignInfo">
+    <constraints height="30px" right="-68px" top="312px" type="MarginConstraintsDesignInfo" width="62px"/>
+  </widget>
+  <widget name="Песня" parent="tabbedPane" prefHeight="574px" prefWidth="858px" type="PanelDesignInfo" visible="false">
     <layout type="MarginLayoutDesignInfo"/>
     <constraints tabTitle="Песня" type="TabsConstraintsDesignInfo"/>
   </widget>
@@ -128,7 +136,7 @@
   <widget name="textField111" parent="Песня" prefHeight="27px" prefWidth="336px" type="TextFieldDesignInfo">
     <constraints height="27px" left="180px" top="84px" type="MarginConstraintsDesignInfo" width="336px"/>
   </widget>
-  <widget name="Гастрольный тур" parent="tabbedPane" prefHeight="575px" prefWidth="640px" type="PanelDesignInfo" visible="false">
+  <widget name="Гастрольный тур" parent="tabbedPane" prefHeight="574px" prefWidth="858px" type="PanelDesignInfo" visible="false">
     <layout type="MarginLayoutDesignInfo"/>
     <constraints tabTitle="Гастрольный тур" type="TabsConstraintsDesignInfo"/>
   </widget>
@@ -138,7 +146,7 @@
   <widget name="label11221" parent="Гастрольный тур" prefHeight="24px" prefWidth="134px" text="пункта" type="LabelDesignInfo">
     <constraints height="24px" left="36px" top="204px" type="MarginConstraintsDesignInfo" width="134px"/>
   </widget>
-  <widget name="modelDate1" parent="Гастрольный тур" prefHeight="27px" prefWidth="180px" type="DbDateDesignInfo">
+  <widget dateFormat="dd.MM.yyyy" name="modelDate1" parent="Гастрольный тур" prefHeight="27px" prefWidth="180px" type="DbDateDesignInfo">
     <constraints height="27px" left="180px" top="132px" type="MarginConstraintsDesignInfo" width="180px"/>
   </widget>
   <widget name="label11121" parent="Гастрольный тур" prefHeight="24px" prefWidth="120px" text="Дата окончания" type="LabelDesignInfo">
@@ -165,7 +173,7 @@
   <widget name="label114" parent="Гастрольный тур" prefHeight="24px" prefWidth="134px" text="Название тура" type="LabelDesignInfo">
     <constraints height="24px" left="36px" top="36px" type="MarginConstraintsDesignInfo" width="134px"/>
   </widget>
-  <widget name="modelDate" parent="Гастрольный тур" prefHeight="27px" prefWidth="180px" type="DbDateDesignInfo">
+  <widget dateFormat="dd.MM.yyyy" name="modelDate" parent="Гастрольный тур" prefHeight="27px" prefWidth="180px" type="DbDateDesignInfo">
     <constraints height="27px" left="180px" top="84px" type="MarginConstraintsDesignInfo" width="180px"/>
   </widget>
   <widget name="textField2" parent="Гастрольный тур" prefHeight="27px" prefWidth="300px" type="TextFieldDesignInfo">

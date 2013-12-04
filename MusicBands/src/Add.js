@@ -3,7 +3,7 @@
  * @author natali
  * @name Add
  */
-
+var self = this;
 function textField122ActionPerformed(evt) {//GEN-FIRST:event_textField122ActionPerformed
 	// TODO Добавьте свой код:
 }//GEN-LAST:event_textField122ActionPerformed
@@ -27,16 +27,7 @@ function button1ActionPerformed(evt) {//GEN-FIRST:event_button1ActionPerformed
 }//GEN-LAST:event_button1ActionPerformed
 
 function button2ActionPerformed(evt) {//GEN-FIRST:event_button2ActionPerformed
-	if (model.modified) {
-    var message = validate();
-    if (!message) {
-model.save(function() {
-close(owner.OWNERS_ID);
-});
-} else {
-alert(message, title);
-}
-}
+	self.singers.insert();
 }//GEN-LAST:event_button2ActionPerformed
 
 function button11ActionPerformed(evt) {//GEN-FIRST:event_button11ActionPerformed
@@ -76,3 +67,8 @@ alert(message, title);
 function button112ActionPerformed(evt) {//GEN-FIRST:event_button112ActionPerformed
 	close();
 }//GEN-LAST:event_button112ActionPerformed
+
+function buttonActionPerformed(evt) {//GEN-FIRST:event_buttonActionPerformed
+	// TODO Добавьте свой код:
+        self.model.save();
+}//GEN-LAST:event_buttonActionPerformed

@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="Param1" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="12" typeName="VARCHAR"/>
+  </parameters>
   <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="groups" Title="groups" entityHeight="200" entityIconified="false" entityId="138613158195210" entityLocationX="436" entityLocationY="43" entityWidth="150" queryId="groups" tableName="" tableSchemaName=""/>
+  <entity Name="singers" Title="singers" entityHeight="200" entityIconified="false" entityId="138613334096605" entityLocationX="209" entityLocationY="104" entityWidth="150" queryId="singers" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="Param1" rightEntityFieldName="RATING" rightEntityId="138613158195210"/>
+  <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138613158195210" rightEntityFieldName="S_ID" rightEntityId="138613334096605"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138613158195210" rightEntityFieldName="G_ID" rightEntityId="138613158195210"/>
+  <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138613158195210" rightEntityFieldName="S_ID" rightEntityId="138613158195210"/>
 </datamodel>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="204px" prefWidth="400px">
-  <widget name="modelFormattedField" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
+  <widget mouseClicked="modelFormattedFieldMouseClicked" name="modelFormattedField" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
     <datamodelElement entityId="138561558746548" fieldName="NAME_OF_COUNTRY"/>
     <constraints height="28px" left="108px" top="48px" type="MarginConstraintsDesignInfo" width="216px"/>
   </widget>

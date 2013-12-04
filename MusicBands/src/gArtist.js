@@ -1,16 +1,15 @@
 /**
  * 
  * @author natalia
- * @name gCountry
+ * @name gArtist
  */
-var self=this;
+var self = this;
 function buttonActionPerformed(evt) {//GEN-FIRST:event_buttonActionPerformed
 	// TODO Добавьте свой код:
         self.model.save();
-        //self.close();
-        self.close();
 }//GEN-LAST:event_buttonActionPerformed
 
-function modelFormattedFieldMouseClicked(evt) {//GEN-FIRST:event_modelFormattedFieldMouseClicked
+function button1ActionPerformed(evt) {//GEN-FIRST:event_button1ActionPerformed
 	// TODO Добавьте свой код:
-}//GEN-LAST:event_modelFormattedFieldMouseClicked
+        self.close("hello from close");
+}//GEN-LAST:event_button1ActionPerformed

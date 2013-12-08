@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="354px" prefWidth="400px">
+  <widget name="modelFormattedField21" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138618092393617" fieldName="DATE_OF_SONG"/>
+    <constraints height="28px" left="168px" top="228px" type="MarginConstraintsDesignInfo" width="216px"/>
+  </widget>
+  <widget name="label1121" parent="Form" prefHeight="24px" prefWidth="134px" text="Дата создания" type="LabelDesignInfo">
+    <constraints height="24px" left="24px" top="228px" type="MarginConstraintsDesignInfo" width="134px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="30px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
+    <constraints bottom="44px" height="30px" left="226px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="30px" prefWidth="110px" text="Сохранить" type="ButtonDesignInfo">
+    <constraints bottom="44px" height="30px" left="94px" type="MarginConstraintsDesignInfo" width="110px"/>
+  </widget>
+  <widget name="modelFormattedField2" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138618092393617" fieldName="SCRIPTWRITER"/>
+    <constraints height="28px" left="166px" top="178px" type="MarginConstraintsDesignInfo" width="216px"/>
+  </widget>
+  <widget name="label112" parent="Form" prefHeight="24px" prefWidth="134px" text="Автор текста" type="LabelDesignInfo">
+    <constraints height="24px" left="22px" top="178px" type="MarginConstraintsDesignInfo" width="134px"/>
+  </widget>
+  <widget name="modelFormattedField1" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138618092393617" fieldName="COMPOSER"/>
+    <constraints height="28px" left="166px" top="130px" type="MarginConstraintsDesignInfo" width="216px"/>
+  </widget>
+  <widget name="label111" parent="Form" prefHeight="24px" prefWidth="134px" text="Композитор" type="LabelDesignInfo">
+    <constraints height="24px" left="22px" top="130px" type="MarginConstraintsDesignInfo" width="134px"/>
+  </widget>
+  <widget name="modelFormattedField" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138618092393617" fieldName="NAME_OF_SONG"/>
+    <constraints height="28px" left="166px" top="82px" type="MarginConstraintsDesignInfo" width="216px"/>
+  </widget>
+  <widget name="label11" parent="Form" prefHeight="24px" prefWidth="134px" text="Название песни" type="LabelDesignInfo">
+    <constraints height="24px" left="22px" top="82px" type="MarginConstraintsDesignInfo" width="134px"/>
+  </widget>
+  <widget name="label" parent="Form" prefHeight="60px" prefWidth="204px" text="Редактирование элемента" type="LabelDesignInfo">
+    <constraints height="60px" left="108px" top="0px" type="MarginConstraintsDesignInfo" width="204px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

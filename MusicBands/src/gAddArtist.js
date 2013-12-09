@@ -18,5 +18,5 @@ function button1ActionPerformed(evt) {//GEN-FIRST:event_button1ActionPerformed
 function formWindowOpened(evt) {//GEN-FIRST:event_formWindowOpened
 	// TODO Добавьте свой код:
 //        self.singers.insert();
-//        Logger.info(singers.ID);
+        Logger.info(self.qSingers.S_ID);
 }//GEN-LAST:event_formWindowOpened

@@ -7,16 +7,22 @@ var self= this;
 function refresh(some){
     Logger.info("here");
     Logger.info(some);
-    self.singers.requery();
+    self.singersSearch.requery();
 }
 function editArtist(){
     var artst = new gArtist();
-    artst.artID = self.singers.S_ID;
+    artst.artID = self.singersSearch.S_ID;
     artst.showModal(refresh);
 }
 function addArtist(){
+    self.singersSearch.insert();
+    self.model.save();
+    Logger.info("hello");
+    Logger.info(self.singersSearch.S_ID);
     var artst = new gAddArtist();
-    artst.artID = self.singers.S_ID;
+    
+    artst.artID = self.singersSearch.S_ID;
+    
     artst.showModal(refresh);
 }
 
@@ -34,17 +40,18 @@ function button1ActionPerformed(evt) {//GEN-FIRST:event_button1ActionPerformed
 
 function buttonActionPerformed(evt) {//GEN-FIRST:event_buttonActionPerformed
 	// TODO Добавьте свой код:
-       Param1="%" + textField.text + "%";
-        self.singers.requery();
-        self.singers.last();
+        Param1="%" + textField.text + "%";
+        self.singersSearch.requery();
+        self.singersSearch.last();
        
 }//GEN-LAST:event_buttonActionPerformed
 
 function button2ActionPerformed(evt) {//GEN-FIRST:event_button2ActionPerformed
 	// TODO Добавьте свой код:
-      var windowAdd = new gAddArtist();
-      self.singers.insert();
-      windowAdd.showModal();
+//      var windowAdd = new gAddArtist();
+//      self.singers.insert();
+//      windowAdd.showModal();
+        addArtist();
 //     
     
 //    self.singers.insert();
@@ -53,3 +60,16 @@ function button2ActionPerformed(evt) {//GEN-FIRST:event_button2ActionPerformed
      
       
 }//GEN-LAST:event_button2ActionPerformed
+
+function button3ActionPerformed(evt) {//GEN-FIRST:event_button3ActionPerformed
+if (confirm('Действительно удалить?', title)) {
+singersSearch.deleteRow();
+}
+	
+}//GEN-LAST:event_button3ActionPerformed
+
+function formWindowOpened(evt) {//GEN-FIRST:event_formWindowOpened
+	// TODO Добавьте свой код:
+        Param1 = "%%"
+        singersSearch.requery();
+}//GEN-LAST:event_formWindowOpened

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="310px" prefWidth="400px">
+  <widget actionPerformed="closeActionPerformed" name="close" parent="Form" prefHeight="30px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
+    <constraints bottom="18px" height="30px" left="204px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="saveActionPerformed" name="save" parent="Form" prefHeight="30px" prefWidth="110px" text="Сохранить" type="ButtonDesignInfo">
+    <constraints bottom="18px" height="30px" left="72px" type="MarginConstraintsDesignInfo" width="110px"/>
+  </widget>
+  <widget name="function" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138659320280478" fieldName="FUNCTION"/>
+    <constraints bottom="66px" height="28px" left="168px" type="MarginConstraintsDesignInfo" width="216px"/>
+  </widget>
+  <widget name="label1121" parent="Form" prefHeight="24px" prefWidth="108px" text="Амплуа" type="LabelDesignInfo">
+    <constraints bottom="70px" height="24px" left="24px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget name="year" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138659320280478" fieldName="YEAR_OF_BIRHDAY"/>
+    <constraints height="28px" left="168px" top="168px" type="MarginConstraintsDesignInfo" width="216px"/>
+  </widget>
+  <widget name="label112" parent="Form" prefHeight="24px" prefWidth="134px" text="Год рождения" type="LabelDesignInfo">
+    <constraints height="24px" left="24px" top="168px" type="MarginConstraintsDesignInfo" width="134px"/>
+  </widget>
+  <widget name="lastname" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138659320280478" fieldName="LASTNAME"/>
+    <constraints height="28px" left="168px" top="120px" type="MarginConstraintsDesignInfo" width="216px"/>
+  </widget>
+  <widget name="label111" parent="Form" prefHeight="24px" prefWidth="134px" text="Фамилия" type="LabelDesignInfo">
+    <constraints height="24px" left="24px" top="120px" type="MarginConstraintsDesignInfo" width="134px"/>
+  </widget>
+  <widget name="firstname" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138659320280478" fieldName="FIRSTNAME"/>
+    <constraints height="28px" left="168px" top="72px" type="MarginConstraintsDesignInfo" width="216px"/>
+  </widget>
+  <widget name="label11" parent="Form" prefHeight="24px" prefWidth="134px" text="Имя" type="LabelDesignInfo">
+    <constraints height="24px" left="24px" top="72px" type="MarginConstraintsDesignInfo" width="134px"/>
+  </widget>
+  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="36px" prefWidth="300px" text="Редактирование нового элемента" type="LabelDesignInfo">
+    <constraints height="36px" left="48px" top="12px" type="MarginConstraintsDesignInfo" width="300px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

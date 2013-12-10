@@ -1,15 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="300px" prefWidth="512px">
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="412px" prefWidth="512px">
+  <widget actionPerformed="button3ActionPerformed" name="button3" parent="Form" prefHeight="30px" prefWidth="84px" text="Удалить" type="ButtonDesignInfo">
+    <constraints bottom="22px" height="30px" left="228px" type="MarginConstraintsDesignInfo" width="84px"/>
+  </widget>
+  <widget actionPerformed="button2ActionPerformed" name="button2" parent="Form" prefHeight="29px" prefWidth="95px" text="Добавить" type="ButtonDesignInfo">
+    <constraints bottom="23px" height="29px" left="108px" type="MarginConstraintsDesignInfo" width="95px"/>
+  </widget>
+  <widget name="textField" parent="Form" prefHeight="24px" prefWidth="204px" type="TextFieldDesignInfo">
+    <constraints bottom="64px" height="24px" left="96px" type="MarginConstraintsDesignInfo" width="204px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="29px" prefWidth="62px" text="ОК" type="ButtonDesignInfo">
+    <constraints bottom="59px" height="29px" left="312px" type="MarginConstraintsDesignInfo" width="62px"/>
+  </widget>
+  <widget name="label2" parent="Form" prefHeight="24px" prefWidth="72px" text="Поиск" type="LabelDesignInfo">
+    <constraints bottom="64px" height="24px" left="36px" type="MarginConstraintsDesignInfo" width="72px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="30px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
+    <constraints bottom="58px" height="30px" right="8px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
   <widget horizontalAlignment="0" name="label1" parent="Form" prefHeight="17px" prefWidth="480px" text="Дважды щелкните по значению, которое хотите изменить" type="LabelDesignInfo">
     <constraints height="17px" left="24px" right="8px" top="36px" type="MarginConstraintsDesignInfo"/>
   </widget>
-  <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="228px" prefWidth="484px" type="DbGridDesignInfo">
+  <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="242px" prefWidth="484px" type="DbGridDesignInfo">
     <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="138618017220977" field="false"/>
+      <rowsDatasource entityId="138668439752822" field="false"/>
     </rowsColumnsDesignInfo>
     <treeDesignInfo/>
+    <column name="lIST_OF_SONGS_ID">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138668439752822" fieldName="LIST_OF_SONGS_ID"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="g_ID">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138668439752822" fieldName="G_ID"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
     <column name="nAME_OF_SONG">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138618017220977" fieldName="NAME_OF_SONG"/>
+      <datamodelElement entityId="138668439752822" fieldName="NAME_OF_SONG"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -24,7 +72,7 @@
     </column>
     <column name="cOMPOSER">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138618017220977" fieldName="COMPOSER"/>
+      <datamodelElement entityId="138668439752822" fieldName="COMPOSER"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -39,7 +87,7 @@
     </column>
     <column name="sCRIPTWRITER">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138618017220977" fieldName="SCRIPTWRITER"/>
+      <datamodelElement entityId="138668439752822" fieldName="SCRIPTWRITER"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -54,7 +102,7 @@
     </column>
     <column name="dATE_OF_SONG">
       <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138618017220977" fieldName="DATE_OF_SONG"/>
+      <datamodelElement entityId="138668439752822" fieldName="DATE_OF_SONG"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -67,11 +115,11 @@
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
-    <constraints bottom="14px" left="22px" right="6px" top="58px" type="MarginConstraintsDesignInfo"/>
+    <constraints bottom="112px" left="22px" right="6px" top="58px" type="MarginConstraintsDesignInfo"/>
   </widget>
   <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="24px" prefWidth="132px" text="Песни" type="LabelDesignInfo">
-    <constraints height="24px" left="192px" right="188px" top="12px" type="MarginConstraintsDesignInfo"/>
     <easFont name="Ubuntu" size="18"/>
+    <constraints height="24px" left="192px" right="188px" top="12px" type="MarginConstraintsDesignInfo"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>
 </layout>

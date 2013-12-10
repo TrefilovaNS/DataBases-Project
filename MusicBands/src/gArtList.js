@@ -47,18 +47,7 @@ function buttonActionPerformed(evt) {//GEN-FIRST:event_buttonActionPerformed
 }//GEN-LAST:event_buttonActionPerformed
 
 function button2ActionPerformed(evt) {//GEN-FIRST:event_button2ActionPerformed
-	// TODO Добавьте свой код:
-//      var windowAdd = new gAddArtist();
-//      self.singers.insert();
-//      windowAdd.showModal();
         addArtist();
-//     
-    
-//    self.singers.insert();
-//     
-//     editArtist();
-     
-      
 }//GEN-LAST:event_button2ActionPerformed
 
 function button3ActionPerformed(evt) {//GEN-FIRST:event_button3ActionPerformed

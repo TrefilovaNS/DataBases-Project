@@ -3,7 +3,7 @@
   <fieldsEntity entityHeight="200" entityIconified="false" entityId="138391299427992" entityLocationX="13" entityLocationY="163" entityWidth="150" tableName="Members_of_group"/>
   <fieldsEntity entityHeight="85" entityIconified="false" entityId="138391336414650" entityLocationX="524" entityLocationY="-1" entityWidth="150" tableName="Country"/>
   <fieldsEntity entityHeight="123" entityIconified="false" entityId="138391592689941" entityLocationX="382" entityLocationY="148" entityWidth="150" tableName="Schedule_of_tour"/>
-  <fieldsEntity entityHeight="122" entityIconified="false" entityId="138391247346948" entityLocationX="281" entityLocationY="11" entityWidth="150" tableName="List_of_songs"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138668592066928" entityLocationX="267" entityLocationY="-1" entityWidth="150" tableName="List_of_songs"/>
   <fieldsEntity entityHeight="200" entityIconified="false" entityId="138391372450482" entityLocationX="208" entityLocationY="159" entityWidth="150" tableName="Tours"/>
   <fieldsEntity entityHeight="147" entityIconified="false" entityId="138364707360431" entityLocationX="19" entityLocationY="0" entityWidth="150" tableName="Groups"/>
 </datamodel>

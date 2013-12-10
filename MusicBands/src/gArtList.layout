@@ -3,6 +3,10 @@
     <constraints bottom="36px" height="30px" right="16px" type="MarginConstraintsDesignInfo" width="108px"/>
   </widget>
   <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="283px" prefWidth="468px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138656618062612" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
     <column name="fIRSTNAME">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138656618062612" fieldName="FIRSTNAME"/>
@@ -48,15 +52,11 @@
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
-    <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="138656618062612" field="false"/>
-    </rowsColumnsDesignInfo>
-    <treeDesignInfo/>
     <constraints bottom="95px" left="12px" right="16px" top="60px" type="MarginConstraintsDesignInfo"/>
   </widget>
   <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="17px" prefWidth="228px" text="Исполнители" type="LabelDesignInfo">
-    <easFont name="Ubuntu" size="18"/>
     <constraints height="17px" left="132px" right="136px" top="12px" type="MarginConstraintsDesignInfo"/>
+    <easFont name="Ubuntu" size="18"/>
   </widget>
   <widget horizontalAlignment="0" name="label1" parent="Form" prefHeight="17px" prefWidth="456px" text="Дважды щелкните по значению, которое хотите изменить" type="LabelDesignInfo">
     <constraints height="17px" left="24px" right="16px" top="36px" type="MarginConstraintsDesignInfo"/>

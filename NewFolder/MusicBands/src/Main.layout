@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="520px" prefWidth="756px">
+  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="24px" prefWidth="264px" text="ИС Музыкальные группы" type="LabelDesignInfo">
+    <constraints height="24px" left="240px" right="252px" top="24px" type="MarginConstraintsDesignInfo"/>
+    <easFont name="Impact" size="24"/>
+  </widget>
+  <widget horizontalAlignment="0" name="label1" parent="Form" prefHeight="17px" prefWidth="636px" text="Добро пожаловать! Выберите, пожалуйста, интересующую Вас область данных" type="LabelDesignInfo">
+    <constraints height="17px" left="48px" right="72px" top="72px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <widget actionPerformed="singersActionPerformed" backgroundColor="#fefefe" foregroundColor="#8a8a8a" icon="img/singers.png" name="singers" parent="Form" prefHeight="75px" prefWidth="75px" type="ButtonDesignInfo">
+    <constraints height="75px" left="156px" top="108px" type="MarginConstraintsDesignInfo" width="75px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

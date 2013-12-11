@@ -5,9 +5,6 @@
   <widget mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="228px" prefWidth="372px" type="DbGridDesignInfo">
     <column name="g_ID">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
       <datamodelElement entityId="138561481769629" fieldName="G_ID"/>
       <columnsDatasource/>
       <columnsDisplayField/>
@@ -17,12 +14,12 @@
         <columnsKeyField/>
         <cellValueField/>
       </cellDesignInfo>
-    </column>
-    <column name="yEAR_OF_FOUNDATION">
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
+    </column>
+    <column name="yEAR_OF_FOUNDATION">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138561481769629" fieldName="YEAR_OF_FOUNDATION"/>
       <columnsDatasource/>
       <columnsDisplayField/>
@@ -32,15 +29,15 @@
         <columnsKeyField/>
         <cellValueField/>
       </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
     </column>
     <column name="c_ID">
       <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
         <valueField entityId="138561480852908" fieldName="C_ID"/>
         <displayField entityId="138561480852908" fieldName="NAME_OF_COUNTRY"/>
       </controlInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
       <datamodelElement entityId="138561481769629" fieldName="C_ID"/>
       <columnsDatasource/>
       <columnsDisplayField/>
@@ -50,12 +47,12 @@
         <columnsKeyField/>
         <cellValueField/>
       </cellDesignInfo>
-    </column>
-    <column name="rATING">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
+    </column>
+    <column name="rATING">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138561481769629" fieldName="RATING"/>
       <columnsDatasource/>
       <columnsDisplayField/>
@@ -65,11 +62,14 @@
         <columnsKeyField/>
         <cellValueField/>
       </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
     </column>
-    <treeDesignInfo/>
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138561481769629" field="false"/>
     </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
     <constraints height="228px" left="12px" top="60px" type="MarginConstraintsDesignInfo" width="372px"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>

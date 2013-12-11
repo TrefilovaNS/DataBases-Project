@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="454px" prefWidth="776px" windowOpened="formWindowOpened">
+  <widget horizontalAlignment="0" name="title" parent="Form" prefHeight="17px" prefWidth="505px" text="Группы" type="LabelDesignInfo">
+    <easFont name="Ubuntu" size="18"/>
+    <constraints height="17px" left="144px" top="24px" type="MarginConstraintsDesignInfo" width="505px"/>
+  </widget>
+  <widget horizontalAlignment="0" name="info" parent="Form" prefHeight="17px" prefWidth="733px" text="Дважды щелкните по значению, которое хотите изменить" type="LabelDesignInfo">
+    <constraints height="17px" left="36px" top="48px" type="MarginConstraintsDesignInfo" width="733px"/>
+  </widget>
+  <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="286px" prefWidth="745px" type="DbGridDesignInfo">
+    <column name="yEAR_OF_FOUNDATION">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <datamodelElement entityId="138678048330960" fieldName="YEAR_OF_FOUNDATION"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+    </column>
+    <column name="rATING">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <datamodelElement entityId="138678048330960" fieldName="RATING"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+    </column>
+    <column name="nAME_OF_GROUP">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <datamodelElement entityId="138678048330960" fieldName="NAME_OF_GROUP"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+    </column>
+    <column name="nAME_OF_COUNTRY">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <datamodelElement entityId="138678048330960" fieldName="NAME_OF_COUNTRY"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138678048330960" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+    <constraints height="286px" left="24px" top="72px" type="MarginConstraintsDesignInfo" width="745px"/>
+  </widget>
+  <widget name="searchText" parent="Form" prefHeight="24px" prefWidth="72px" text="Поиск" type="LabelDesignInfo">
+    <constraints bottom="50px" height="24px" left="48px" type="MarginConstraintsDesignInfo" width="72px"/>
+  </widget>
+  <widget actionPerformed="textFieldActionPerformed" horizontalAlignment="2" name="textField" parent="Form" prefHeight="24px" prefWidth="434px" type="TextFieldDesignInfo">
+    <constraints bottom="50px" height="24px" left="108px" type="MarginConstraintsDesignInfo" width="434px"/>
+  </widget>
+  <widget actionPerformed="searchActionPerformed" name="search" parent="Form" prefHeight="24px" prefWidth="62px" text="ОК" type="ButtonDesignInfo">
+    <constraints bottom="50px" height="24px" right="147px" type="MarginConstraintsDesignInfo" width="62px"/>
+  </widget>
+  <widget actionPerformed="closeActionPerformed" name="close" parent="Form" prefHeight="24px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
+    <constraints bottom="50px" height="24px" right="17px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="addActionPerformed" name="add" parent="Form" prefHeight="29px" prefWidth="144px" text="Добавить" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="29px" left="168px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <widget actionPerformed="deleteActionPerformed" name="delete" parent="Form" prefHeight="30px" prefWidth="144px" text="Удалить" type="ButtonDesignInfo">
+    <constraints bottom="8px" height="30px" left="336px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

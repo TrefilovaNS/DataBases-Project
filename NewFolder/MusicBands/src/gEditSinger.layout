@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="310px" prefWidth="400px">
-  <widget actionPerformed="closeActionPerformed" name="close" parent="Form" prefHeight="30px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
+  <widget actionPerformed="closeWinActionPerformed" name="closeWin" parent="Form" prefHeight="30px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
     <constraints bottom="18px" height="30px" left="204px" type="MarginConstraintsDesignInfo" width="108px"/>
   </widget>
   <widget actionPerformed="saveActionPerformed" name="save" parent="Form" prefHeight="30px" prefWidth="110px" text="Сохранить" type="ButtonDesignInfo">

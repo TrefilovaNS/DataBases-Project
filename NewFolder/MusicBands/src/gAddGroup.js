@@ -9,7 +9,7 @@ function saveActionPerformed(evt) {//GEN-FIRST:event_saveActionPerformed
         self.model.save();
 }//GEN-LAST:event_saveActionPerformed
 
-function closeActionPerformed(evt) {//GEN-FIRST:event_closeActionPerformed
+function closeWinActionPerformed(evt) {//GEN-FIRST:event_closeWinActionPerformed
 	// TODO Добавьте свой код:
         self.close("hello from close");
-}//GEN-LAST:event_closeActionPerformed
+}//GEN-LAST:event_closeWinActionPerformed

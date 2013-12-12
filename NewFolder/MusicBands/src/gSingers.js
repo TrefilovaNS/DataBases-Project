@@ -22,13 +22,6 @@ function addArtist(){
     artst.showModal(refresh);
 }
 
-function modelGridMouseClicked(evt) {//GEN-FIRST:event_modelGridMouseClicked
-	// TODO Добавьте свой код:
-        if (evt.clickCount>1){
-            editArtist();
-        }
-}//GEN-LAST:event_modelGridMouseClicked
-
 function SearchActionPerformed(evt) {//GEN-FIRST:event_SearchActionPerformed
 	// TODO Добавьте свой код:
         Param1="%" + textField.text + "%";
@@ -37,10 +30,10 @@ function SearchActionPerformed(evt) {//GEN-FIRST:event_SearchActionPerformed
        
 }//GEN-LAST:event_SearchActionPerformed
 
-function CloseActionPerformed(evt) {//GEN-FIRST:event_CloseActionPerformed
+function CloseWinActionPerformed(evt) {//GEN-FIRST:event_CloseWinActionPerformed
 	// TODO Добавьте свой код:
         self.close("hello from close");
-}//GEN-LAST:event_CloseActionPerformed
+}//GEN-LAST:event_CloseWinActionPerformed
 
 function AddActionPerformed(evt) {//GEN-FIRST:event_AddActionPerformed
         addArtist();
@@ -63,3 +56,10 @@ function formWindowOpened(evt) {//GEN-FIRST:event_formWindowOpened
         Param1 = "%%"
         qSearchSinger.requery();
 }//GEN-LAST:event_formWindowOpened
+
+function modelGridMouseClicked(evt) {//GEN-FIRST:event_modelGridMouseClicked
+	// TODO Добавьте свой код:
+        if (evt.clickCount>1){
+            editArtist();
+        }
+}//GEN-LAST:event_modelGridMouseClicked

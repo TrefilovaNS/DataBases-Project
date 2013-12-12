@@ -5,7 +5,7 @@
   <widget actionPerformed="AddActionPerformed" name="Add" parent="Form" prefHeight="29px" prefWidth="144px" text="Добавить" type="ButtonDesignInfo">
     <constraints bottom="13px" height="29px" left="156px" type="MarginConstraintsDesignInfo" width="144px"/>
   </widget>
-  <widget actionPerformed="CloseActionPerformed" name="Close" parent="Form" prefHeight="24px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
+  <widget actionPerformed="CloseWinActionPerformed" name="CloseWin" parent="Form" prefHeight="24px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
     <constraints bottom="54px" height="24px" right="26px" type="MarginConstraintsDesignInfo" width="108px"/>
   </widget>
   <widget actionPerformed="SearchActionPerformed" name="Search" parent="Form" prefHeight="24px" prefWidth="62px" text="ОК" type="ButtonDesignInfo">
@@ -18,43 +18,9 @@
     <constraints bottom="54px" height="24px" left="36px" type="MarginConstraintsDesignInfo" width="72px"/>
   </widget>
   <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="254px" prefWidth="742px" type="DbGridDesignInfo">
-    <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="138668235799676" field="false"/>
-    </rowsColumnsDesignInfo>
-    <treeDesignInfo/>
-    <column name="fIRSTNAME">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138668235799676" fieldName="FIRSTNAME"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="lASTNAME">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138668235799676" fieldName="LASTNAME"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
     <column name="yEAR_OF_BIRHDAY">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138668235799676" fieldName="YEAR_OF_BIRHDAY"/>
+      <datamodelElement entityId="138682624346030" fieldName="YEAR_OF_BIRHDAY"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -69,7 +35,7 @@
     </column>
     <column name="fUNCTION">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138668235799676" fieldName="FUNCTION"/>
+      <datamodelElement entityId="138682624346030" fieldName="FUNCTION"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -82,6 +48,25 @@
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
+    <column name="fullName">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138682624346030" fieldName="fullName"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138682624346030" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
     <constraints bottom="102px" left="22px" right="6px" top="70px" type="MarginConstraintsDesignInfo"/>
   </widget>
   <widget horizontalAlignment="0" name="info" parent="Form" prefHeight="17px" prefWidth="730px" text="Дважды щелкните по значению, которое хотите изменить" type="LabelDesignInfo">

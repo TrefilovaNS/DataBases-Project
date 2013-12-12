@@ -6,7 +6,7 @@
   <widget name="label1121" parent="Form" prefHeight="24px" prefWidth="108px" text="Амплуа" type="LabelDesignInfo">
     <constraints height="24px" left="24px" top="216px" type="MarginConstraintsDesignInfo" width="108px"/>
   </widget>
-  <widget actionPerformed="CloseActionPerformed" name="Close" parent="Form" prefHeight="30px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
+  <widget actionPerformed="CloseWinActionPerformed" name="CloseWin" parent="Form" prefHeight="30px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
     <constraints bottom="21px" height="30px" left="204px" type="MarginConstraintsDesignInfo" width="108px"/>
   </widget>
   <widget actionPerformed="SaveActionPerformed" name="Save" parent="Form" prefHeight="30px" prefWidth="110px" text="Сохранить" type="ButtonDesignInfo">

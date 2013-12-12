@@ -3,6 +3,6 @@
     <parameter description="" name="Param1" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="12" typeName="VARCHAR"/>
   </parameters>
   <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
-  <entity Title="Singers" entityHeight="200" entityIconified="false" entityId="138668106257573" entityLocationX="243" entityLocationY="9" entityWidth="150" queryId="Singers" tableAlias="q1" tableName="" tableSchemaName=""/>
-  <relation leftEntityFieldName="LASTNAME" leftEntityId="138668106257573" rightEntityId="-1" rightEntityParameterName="Param1"/>
+  <entity Title="qSingersFullName" entityHeight="200" entityIconified="false" entityId="138684595123883" entityLocationX="183" entityLocationY="10" entityWidth="150" queryId="qSingersFullName" tableAlias="q1" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="Param1" rightEntityFieldName="fullName" rightEntityId="138684595123883"/>
 </datamodel>

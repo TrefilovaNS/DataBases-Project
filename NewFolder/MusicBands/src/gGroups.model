@@ -3,7 +3,7 @@
     <parameter description="" name="Param1" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="12" typeName="VARCHAR"/>
   </parameters>
   <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
-  <entity Name="qSearchGroups" Title="qSearchGroups" entityHeight="200" entityIconified="false" entityId="138678048330960" entityLocationX="209" entityLocationY="14" entityWidth="150" queryId="qSearchGroups" tableName="" tableSchemaName=""/>
-  <relation leftEntityId="-1" leftEntityParameterName="Param1" rightEntityId="138678048330960" rightEntityParameterName="Param1"/>
-  <referenceRelation leftEntityFieldName="C_ID" leftEntityId="138678048330960" rightEntityFieldName="C_ID" rightEntityId="138678048330960"/>
+  <entity Name="qSearchGroups" Title="qSearchGroups" entityHeight="200" entityIconified="false" entityId="138684436961571" entityLocationX="233" entityLocationY="10" entityWidth="150" queryId="qSearchGroups" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="Param1" rightEntityId="138684436961571" rightEntityParameterName="Param1"/>
+  <referenceRelation leftEntityFieldName="C_ID" leftEntityId="138684436961571" rightEntityFieldName="C_ID" rightEntityId="138684436961571"/>
 </datamodel>

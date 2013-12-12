@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="488px" prefWidth="788px">
+  <widget actionPerformed="deleteActionPerformed" name="delete" parent="Form" prefHeight="30px" prefWidth="144px" text="Удалить" type="ButtonDesignInfo">
+    <constraints bottom="14px" height="30px" left="324px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <widget actionPerformed="addActionPerformed" name="add" parent="Form" prefHeight="29px" prefWidth="144px" text="Добавить" type="ButtonDesignInfo">
+    <constraints bottom="15px" height="29px" left="156px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <widget actionPerformed="closeWinActionPerformed" name="closeWin" parent="Form" prefHeight="24px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
+    <constraints bottom="56px" height="24px" right="32px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="searchActionPerformed" name="search" parent="Form" prefHeight="24px" prefWidth="62px" text="ОК" type="ButtonDesignInfo">
+    <constraints bottom="56px" height="24px" right="162px" type="MarginConstraintsDesignInfo" width="62px"/>
+  </widget>
+  <widget actionPerformed="textFieldActionPerformed" horizontalAlignment="2" name="textField" parent="Form" prefHeight="24px" prefWidth="434px" type="TextFieldDesignInfo">
+    <constraints bottom="56px" height="24px" left="96px" type="MarginConstraintsDesignInfo" width="434px"/>
+  </widget>
+  <widget name="searchText" parent="Form" prefHeight="24px" prefWidth="72px" text="Поиск" type="LabelDesignInfo">
+    <constraints bottom="56px" height="24px" left="36px" type="MarginConstraintsDesignInfo" width="72px"/>
+  </widget>
+  <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="286px" prefWidth="745px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138684436961571" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="286px" left="12px" top="60px" type="MarginConstraintsDesignInfo" width="745px"/>
+  </widget>
+  <widget horizontalAlignment="0" name="info" parent="Form" prefHeight="17px" prefWidth="733px" text="Дважды щелкните по значению, которое хотите изменить" type="LabelDesignInfo">
+    <constraints height="17px" left="24px" top="36px" type="MarginConstraintsDesignInfo" width="733px"/>
+  </widget>
+  <widget horizontalAlignment="0" name="title" parent="Form" prefHeight="17px" prefWidth="505px" text="Участники групп" type="LabelDesignInfo">
+    <constraints height="17px" left="132px" top="12px" type="MarginConstraintsDesignInfo" width="505px"/>
+    <easFont name="Ubuntu" size="18"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

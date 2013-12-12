@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="315px" prefWidth="400px">
   <widget name="function" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="138659327362673" fieldName="FUNCTION"/>
+    <datamodelElement entityId="138684604109618" fieldName="ROLE_OF_GROUP"/>
     <constraints height="28px" left="168px" top="216px" type="MarginConstraintsDesignInfo" width="216px"/>
   </widget>
   <widget name="label1121" parent="Form" prefHeight="24px" prefWidth="108px" text="Амплуа" type="LabelDesignInfo">
@@ -13,21 +13,21 @@
     <constraints bottom="21px" height="30px" left="72px" type="MarginConstraintsDesignInfo" width="110px"/>
   </widget>
   <widget name="Year" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="138659327362673" fieldName="YEAR_OF_BIRHDAY"/>
+    <datamodelElement entityId="138684604109618" fieldName="YEAR_OF_BIRHDAY"/>
     <constraints height="28px" left="168px" top="168px" type="MarginConstraintsDesignInfo" width="216px"/>
   </widget>
   <widget name="label112" parent="Form" prefHeight="24px" prefWidth="134px" text="Год рождения" type="LabelDesignInfo">
     <constraints height="24px" left="24px" top="168px" type="MarginConstraintsDesignInfo" width="134px"/>
   </widget>
   <widget name="Lastname" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="138659327362673" fieldName="LASTNAME"/>
+    <datamodelElement entityId="138684604109618" fieldName="LASTNAME"/>
     <constraints height="28px" left="168px" top="120px" type="MarginConstraintsDesignInfo" width="216px"/>
   </widget>
   <widget name="label111" parent="Form" prefHeight="24px" prefWidth="134px" text="Фамилия" type="LabelDesignInfo">
     <constraints height="24px" left="24px" top="120px" type="MarginConstraintsDesignInfo" width="134px"/>
   </widget>
   <widget name="Firstname" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="138659327362673" fieldName="FIRSTNAME"/>
+    <datamodelElement entityId="138684604109618" fieldName="FIRSTNAME"/>
     <constraints height="28px" left="168px" top="72px" type="MarginConstraintsDesignInfo" width="216px"/>
   </widget>
   <widget name="label11" parent="Form" prefHeight="24px" prefWidth="134px" text="Имя" type="LabelDesignInfo">

@@ -33,10 +33,10 @@ function addActionPerformed(evt) {//GEN-FIRST:event_addActionPerformed
         addWin();
 }//GEN-LAST:event_addActionPerformed
 
-function closeActionPerformed(evt) {//GEN-FIRST:event_closeActionPerformed
+function closeWinActionPerformed(evt) {//GEN-FIRST:event_closeWinActionPerformed
 	// TODO Добавьте свой код:
         self.close("hello from close");
-}//GEN-LAST:event_closeActionPerformed
+}//GEN-LAST:event_closeWinActionPerformed
 
 function searchActionPerformed(evt) {//GEN-FIRST:event_searchActionPerformed
 	// TODO Добавьте свой код:

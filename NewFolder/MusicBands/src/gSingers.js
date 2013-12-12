@@ -26,8 +26,7 @@ function SearchActionPerformed(evt) {//GEN-FIRST:event_SearchActionPerformed
 	// TODO Добавьте свой код:
         Param1="%" + textField.text + "%";
         self.qSearchSinger.requery();
-        self.qSearchSinger.last();
-       
+               
 }//GEN-LAST:event_SearchActionPerformed
 
 function CloseWinActionPerformed(evt) {//GEN-FIRST:event_CloseWinActionPerformed

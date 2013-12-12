@@ -42,7 +42,6 @@ function searchActionPerformed(evt) {//GEN-FIRST:event_searchActionPerformed
 	// TODO Добавьте свой код:
         Param1="%" + textField.text + "%";
         self.qSearchGroups.requery();
-        self.qSearchGroups.last();
        
 }//GEN-LAST:event_searchActionPerformed
 

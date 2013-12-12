@@ -30,7 +30,6 @@ function searchActionPerformed(evt) {//GEN-FIRST:event_searchActionPerformed
 	// TODO Добавьте свой код:
         Param1="%" + textField.text + "%";
         self.qSearchMembers.requery();
-        self.qSearchMembers.last();
        
 }//GEN-LAST:event_searchActionPerformed
 

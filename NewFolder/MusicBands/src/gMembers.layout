@@ -18,7 +18,7 @@
     <constraints bottom="56px" height="24px" left="36px" type="MarginConstraintsDesignInfo" width="72px"/>
   </widget>
   <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="286px" prefWidth="745px" type="DbGridDesignInfo">
-    <column name="name_of_group">
+    <column name="Название группы">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDatasource/>
       <columnsDisplayField/>
@@ -31,9 +31,24 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138685321659530" fieldName="Name_of_group"/>
+      <datamodelElement entityId="138685701846649" fieldName="Name_of_group"/>
     </column>
-    <column name="year_of_birhday">
+    <column name="Исполнитель">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <datamodelElement entityId="138685701846649" fieldName="fullName"/>
+    </column>
+    <column name="Возраст">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDatasource/>
       <columnsDisplayField/>
@@ -46,9 +61,9 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138685321659530" fieldName="Year_of_birhday"/>
+      <datamodelElement entityId="138685701846649" fieldName="Age"/>
     </column>
-    <column name="role_of_group">
+    <column name="Амплуа">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDatasource/>
       <columnsDisplayField/>
@@ -61,26 +76,11 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138685321659530" fieldName="Role_of_group"/>
-    </column>
-    <column name="fullName">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <datamodelElement entityId="138685321659530" fieldName="fullName"/>
+      <datamodelElement entityId="138685701846649" fieldName="Role_of_group"/>
     </column>
     <treeDesignInfo/>
     <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="138685321659530" field="false"/>
+      <rowsDatasource entityId="138685701846649" field="false"/>
     </rowsColumnsDesignInfo>
     <constraints height="286px" left="12px" top="60px" type="MarginConstraintsDesignInfo" width="745px"/>
   </widget>

@@ -18,7 +18,22 @@
     <constraints bottom="54px" height="24px" left="36px" type="MarginConstraintsDesignInfo" width="72px"/>
   </widget>
   <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="254px" prefWidth="742px" type="DbGridDesignInfo">
-    <column name="yEAR_OF_BIRHDAY">
+    <column name="Имя исполнителя">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <datamodelElement entityId="138684607164915" fieldName="fullName"/>
+    </column>
+    <column name="Год рождения">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDatasource/>
       <columnsDisplayField/>
@@ -33,7 +48,7 @@
       </headerStyle>
       <datamodelElement entityId="138684607164915" fieldName="YEAR_OF_BIRHDAY"/>
     </column>
-    <column name="rOLE_OF_GROUP">
+    <column name="Амплуа">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDatasource/>
       <columnsDisplayField/>
@@ -47,21 +62,6 @@
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
       <datamodelElement entityId="138684607164915" fieldName="ROLE_OF_GROUP"/>
-    </column>
-    <column name="fullName">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <datamodelElement entityId="138684607164915" fieldName="fullName"/>
     </column>
     <treeDesignInfo/>
     <rowsColumnsDesignInfo>

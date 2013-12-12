@@ -7,7 +7,7 @@
     <constraints height="17px" left="36px" top="48px" type="MarginConstraintsDesignInfo" width="733px"/>
   </widget>
   <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="286px" prefWidth="745px" type="DbGridDesignInfo">
-    <column name="nAME_OF_GROUP">
+    <column name="Название">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDatasource/>
       <columnsDisplayField/>
@@ -22,7 +22,7 @@
       </headerStyle>
       <datamodelElement entityId="138684436961571" fieldName="NAME_OF_GROUP"/>
     </column>
-    <column name="yEAR_OF_FOUNDATION">
+    <column name="Год основания">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDatasource/>
       <columnsDisplayField/>
@@ -37,7 +37,7 @@
       </headerStyle>
       <datamodelElement entityId="138684436961571" fieldName="YEAR_OF_FOUNDATION"/>
     </column>
-    <column name="rATING">
+    <column name="Рейтинг">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDatasource/>
       <columnsDisplayField/>
@@ -52,7 +52,7 @@
       </headerStyle>
       <datamodelElement entityId="138684436961571" fieldName="RATING"/>
     </column>
-    <column name="nAME_OF_COUNTRY">
+    <column name="Страна">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <columnsDatasource/>
       <columnsDisplayField/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="488px" prefWidth="788px">
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="488px" prefWidth="788px" windowOpened="formWindowOpened">
   <widget actionPerformed="deleteActionPerformed" name="delete" parent="Form" prefHeight="30px" prefWidth="144px" text="Удалить" type="ButtonDesignInfo">
     <constraints bottom="14px" height="30px" left="324px" type="MarginConstraintsDesignInfo" width="144px"/>
   </widget>
@@ -18,9 +18,69 @@
     <constraints bottom="56px" height="24px" left="36px" type="MarginConstraintsDesignInfo" width="72px"/>
   </widget>
   <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="286px" prefWidth="745px" type="DbGridDesignInfo">
+    <column name="name_of_group">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <datamodelElement entityId="138685321659530" fieldName="Name_of_group"/>
+    </column>
+    <column name="year_of_birhday">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <datamodelElement entityId="138685321659530" fieldName="Year_of_birhday"/>
+    </column>
+    <column name="role_of_group">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <datamodelElement entityId="138685321659530" fieldName="Role_of_group"/>
+    </column>
+    <column name="fullName">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <datamodelElement entityId="138685321659530" fieldName="fullName"/>
+    </column>
     <treeDesignInfo/>
     <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="138684436961571" field="false"/>
+      <rowsDatasource entityId="138685321659530" field="false"/>
     </rowsColumnsDesignInfo>
     <constraints height="286px" left="12px" top="60px" type="MarginConstraintsDesignInfo" width="745px"/>
   </widget>

@@ -33,7 +33,7 @@
   <widget name="label11" parent="Form" prefHeight="24px" prefWidth="134px" text="Имя" type="LabelDesignInfo">
     <constraints height="24px" left="24px" top="72px" type="MarginConstraintsDesignInfo" width="134px"/>
   </widget>
-  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="36px" prefWidth="300px" text="Редактирование нового элемента" type="LabelDesignInfo">
+  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="36px" prefWidth="300px" text="Редактирование  элемента" type="LabelDesignInfo">
     <constraints height="36px" left="48px" top="12px" type="MarginConstraintsDesignInfo" width="300px"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>

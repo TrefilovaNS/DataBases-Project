@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="GROUPS" entityHeight="200" entityIconified="false" entityId="138710483838347" entityLocationX="552" entityLocationY="18" entityWidth="150" tableAlias="t1" tableName="GROUPS" tableSchemaName=""/>
+  <entity Title="SCHEDULE_OF_TOUR" entityHeight="200" entityIconified="false" entityId="138710485128657" entityLocationX="184" entityLocationY="14" entityWidth="150" tableAlias="t2" tableName="SCHEDULE_OF_TOUR" tableSchemaName=""/>
+  <entity Title="TOURS" entityHeight="200" entityIconified="false" entityId="138710484500602" entityLocationX="354" entityLocationY="16" entityWidth="150" tableAlias="t" tableName="TOURS" tableSchemaName=""/>
+  <relation leftEntityFieldName="T_ID" leftEntityId="138710485128657" rightEntityFieldName="T_ID" rightEntityId="138710484500602"/>
+  <relation leftEntityFieldName="G_ID" leftEntityId="138710484500602" rightEntityFieldName="G_ID" rightEntityId="138710483838347"/>
+</datamodel>

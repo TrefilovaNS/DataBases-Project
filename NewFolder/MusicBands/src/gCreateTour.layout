@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="219px" prefWidth="400px">
+  <widget actionPerformed="closeWinActionPerformed" name="closeWin" parent="Form" prefHeight="30px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
+    <constraints height="30px" left="216px" top="168px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="saveActionPerformed" name="save" parent="Form" prefHeight="30px" prefWidth="110px" text="Сохранить" type="ButtonDesignInfo">
+    <constraints height="30px" left="60px" top="168px" type="MarginConstraintsDesignInfo" width="110px"/>
+  </widget>
+  <widget name="label111" parent="Form" prefHeight="24px" prefWidth="134px" text="Название тура" type="LabelDesignInfo">
+    <constraints height="24px" left="24px" top="96px" type="MarginConstraintsDesignInfo" width="134px"/>
+  </widget>
+  <widget name="label" parent="Form" prefHeight="36px" prefWidth="224px" text="Создание нового тура" type="LabelDesignInfo">
+    <constraints height="36px" left="96px" top="12px" type="MarginConstraintsDesignInfo" width="224px"/>
+  </widget>
+  <widget name="modelFormattedField" parent="Form" prefHeight="27px" prefWidth="204px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138711145756866" fieldName="Name_of_tour"/>
+    <constraints height="27px" left="168px" top="96px" type="MarginConstraintsDesignInfo" width="204px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

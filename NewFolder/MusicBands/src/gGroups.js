@@ -61,3 +61,9 @@ function formWindowOpened(evt) {//GEN-FIRST:event_formWindowOpened
         Param1 = "%%"
         qSearchGroups.requery();
 }//GEN-LAST:event_formWindowOpened
+
+function buttonActionPerformed(evt) {//GEN-FIRST:event_buttonActionPerformed
+	// TODO Добавьте свой код:
+        var highestRating = new gHighestRating();
+        highestRating.showModal();
+}//GEN-LAST:event_buttonActionPerformed

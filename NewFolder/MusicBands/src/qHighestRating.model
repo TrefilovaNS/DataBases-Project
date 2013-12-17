@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="GROUPS" entityHeight="200" entityIconified="false" entityId="138721868201141" entityLocationX="186" entityLocationY="16" entityWidth="150" tableAlias="t" tableName="GROUPS" tableSchemaName=""/>
+  <entity Title="LIST_OF_SONGS" entityHeight="200" entityIconified="false" entityId="138721911180110" entityLocationX="576" entityLocationY="19" entityWidth="150" tableAlias="t2" tableName="LIST_OF_SONGS" tableSchemaName=""/>
+  <entity Title="GROUPS" entityHeight="200" entityIconified="false" entityId="138721896115976" entityLocationX="385" entityLocationY="15" entityWidth="150" tableAlias="t1" tableName="GROUPS" tableSchemaName=""/>
+  <relation leftEntityFieldName="G_ID" leftEntityId="138721911180110" rightEntityFieldName="G_ID" rightEntityId="138721868201141"/>
+  <relation leftEntityFieldName="RATING" leftEntityId="138721868201141" rightEntityFieldName="RATING" rightEntityId="138721896115976"/>
+</datamodel>

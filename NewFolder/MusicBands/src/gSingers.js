@@ -62,3 +62,9 @@ function modelGridMouseClicked(evt) {//GEN-FIRST:event_modelGridMouseClicked
             editArtist();
         }
 }//GEN-LAST:event_modelGridMouseClicked
+
+function buttonActionPerformed(evt) {//GEN-FIRST:event_buttonActionPerformed
+	// TODO Добавьте свой код:
+        var age = new gAge();
+        age.showModal();
+}//GEN-LAST:event_buttonActionPerformed

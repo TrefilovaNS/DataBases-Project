@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="480px" prefWidth="400px">
+  <widget name="function1" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138678186525984" fieldName="NAME_OF_COUNTRY"/>
+    <constraints height="28px" left="168px" top="216px" type="MarginConstraintsDesignInfo" width="216px"/>
+  </widget>
+  <widget name="label1122" parent="Form" prefHeight="24px" prefWidth="134px" text="или Новая страна" type="LabelDesignInfo">
+    <constraints height="24px" left="24px" top="216px" type="MarginConstraintsDesignInfo" width="134px"/>
+  </widget>
   <widget actionPerformed="closeWinActionPerformed" name="closeWin" parent="Form" prefHeight="30px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
     <constraints bottom="18px" height="30px" left="204px" type="MarginConstraintsDesignInfo" width="108px"/>
   </widget>
@@ -7,10 +14,10 @@
   </widget>
   <widget name="function" parent="Form" prefHeight="28px" prefWidth="216px" type="DbLabelDesignInfo">
     <datamodelElement entityId="138678185740648" fieldName="RATING"/>
-    <constraints height="28px" left="168px" top="216px" type="MarginConstraintsDesignInfo" width="216px"/>
+    <constraints height="28px" left="168px" top="264px" type="MarginConstraintsDesignInfo" width="216px"/>
   </widget>
   <widget name="label1121" parent="Form" prefHeight="24px" prefWidth="108px" text="Рейтинг" type="LabelDesignInfo">
-    <constraints height="24px" left="24px" top="216px" type="MarginConstraintsDesignInfo" width="108px"/>
+    <constraints height="24px" left="24px" top="264px" type="MarginConstraintsDesignInfo" width="108px"/>
   </widget>
   <widget name="label112" parent="Form" prefHeight="24px" prefWidth="134px" text="Страна" type="LabelDesignInfo">
     <constraints height="24px" left="24px" top="168px" type="MarginConstraintsDesignInfo" width="134px"/>

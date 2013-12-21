@@ -18,7 +18,7 @@
     <constraints bottom="64px" height="24px" left="24px" type="MarginConstraintsDesignInfo" width="72px"/>
   </widget>
   <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="211px" prefWidth="750px" type="DbGridDesignInfo">
-    <column name="name_of_group">
+    <column name="Название группы">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138711421476206" fieldName="Name_of_group"/>
       <headerStyle>
@@ -33,7 +33,7 @@
         <cellValueField/>
       </cellDesignInfo>
     </column>
-    <column name="name_of_tour">
+    <column name="Название тура">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138711421476206" fieldName="Name_of_tour"/>
       <headerStyle>
@@ -48,7 +48,7 @@
         <cellValueField/>
       </cellDesignInfo>
     </column>
-    <column name="name_of_town">
+    <column name="Название города">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138711421476206" fieldName="Name_of_town"/>
       <headerStyle>
@@ -63,7 +63,7 @@
         <cellValueField/>
       </cellDesignInfo>
     </column>
-    <column name="startdate">
+    <column name="Дата начала">
       <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138711421476206" fieldName="Startdate"/>
       <headerStyle>
@@ -78,7 +78,7 @@
         <cellValueField/>
       </cellDesignInfo>
     </column>
-    <column name="enddate">
+    <column name="Дата окончания">
       <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138711421476206" fieldName="Enddate"/>
       <headerStyle>
@@ -93,7 +93,7 @@
         <cellValueField/>
       </cellDesignInfo>
     </column>
-    <column name="average_price">
+    <column name="Средняя цена">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
       <datamodelElement entityId="138711421476206" fieldName="Average_price"/>
       <headerStyle>
@@ -108,18 +108,18 @@
         <cellValueField/>
       </cellDesignInfo>
     </column>
-    <treeDesignInfo/>
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="138711421476206" field="false"/>
     </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
     <constraints height="211px" left="12px" top="60px" type="MarginConstraintsDesignInfo" width="750px"/>
   </widget>
   <widget horizontalAlignment="0" name="info" parent="Form" prefHeight="17px" prefWidth="738px" text="Дважды щелкните по значению, которое хотите изменить" type="LabelDesignInfo">
     <constraints height="17px" left="24px" top="36px" type="MarginConstraintsDesignInfo" width="738px"/>
   </widget>
   <widget horizontalAlignment="0" name="title" parent="Form" prefHeight="17px" prefWidth="510px" text="Гастроли" type="LabelDesignInfo">
-    <easFont name="Ubuntu" size="18"/>
     <constraints height="17px" left="132px" top="12px" type="MarginConstraintsDesignInfo" width="510px"/>
+    <easFont name="Ubuntu" size="18"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>
 </layout>

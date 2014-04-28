@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><datamodel>
-  <parameters>
-    <parameter description="" name="gID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
-  </parameters>
-  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
-  <entity Title="Groups" entityHeight="200" entityIconified="false" entityId="138678096012933" entityLocationX="185" entityLocationY="12" entityWidth="150" queryId="Groups" tableAlias="q1" tableName="" tableSchemaName=""/>
-  <relation leftEntityId="-1" leftEntityParameterName="gID" rightEntityFieldName="G_ID" rightEntityId="138678096012933"/>
-</datamodel>

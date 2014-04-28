@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><datamodel>
-  <parameters>
-    <parameter description="" name="SCHEDULE_ID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
-  </parameters>
-  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
-  <entity Title="ToursID" entityHeight="200" entityIconified="false" entityId="138710874313724" entityLocationX="204" entityLocationY="11" entityWidth="150" queryId="ToursID" tableAlias="q1" tableName="" tableSchemaName=""/>
-  <relation leftEntityId="-1" leftEntityParameterName="SCHEDULE_ID" rightEntityFieldName="SCHEDULE_OF_TOUR_ID" rightEntityId="138710874313724"/>
-</datamodel>

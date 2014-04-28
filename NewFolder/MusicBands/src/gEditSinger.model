@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><datamodel>
-  <parameters>
-    <parameter description="" name="singID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
-  </parameters>
-  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
-  <entity Name="qSingers" Title="qSingers" entityHeight="200" entityIconified="false" entityId="138684605738879" entityLocationX="187" entityLocationY="-7" entityWidth="150" queryId="qSingers" tableName="" tableSchemaName=""/>
-  <relation leftEntityId="-1" leftEntityParameterName="singID" rightEntityId="138684605738879" rightEntityParameterName="sID"/>
-</datamodel>

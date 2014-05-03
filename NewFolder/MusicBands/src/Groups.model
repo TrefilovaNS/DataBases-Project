@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><datamodel>
-  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
-  <entity Title="GROUPS" entityHeight="200" entityIconified="false" entityId="138677796592733" entityLocationX="175" entityLocationY="10" entityWidth="150" tableAlias="t1" tableName="GROUPS" tableSchemaName=""/>
-</datamodel>

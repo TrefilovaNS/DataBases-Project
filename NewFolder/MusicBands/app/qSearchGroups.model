@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="Param1" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="12" typeName="VARCHAR"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="qCountry" entityHeight="200" entityIconified="false" entityId="138678041361685" entityLocationX="425" entityLocationY="13" entityWidth="150" queryId="qCountry" tableAlias="q" tableName="" tableSchemaName=""/>
+  <entity Title="Groups" entityHeight="200" entityIconified="false" entityId="138677820677361" entityLocationX="247" entityLocationY="6" entityWidth="150" queryId="Groups" tableAlias="q1" tableName="" tableSchemaName=""/>
+  <relation leftEntityFieldName="C_ID" leftEntityId="138677820677361" rightEntityFieldName="C_ID" rightEntityId="138678041361685"/>
+  <relation leftEntityId="-1" leftEntityParameterName="Param1" rightEntityFieldName="NAME_OF_GROUP" rightEntityId="138677820677361"/>
+</datamodel>

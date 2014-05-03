@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><datamodel>
-  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
-  <entity Name="qHighestRating" Title="qHighestRating" entityHeight="200" entityIconified="false" entityId="138721948075416" entityLocationX="188" entityLocationY="21" entityWidth="150" queryId="qHighestRating" tableName="" tableSchemaName=""/>
-</datamodel>

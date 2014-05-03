@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><datamodel datamodelDbId="null">
-  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138650255820750" entityLocationX="121" entityLocationY="254" entityWidth="150" tableName="MEMBERS_OF_GROUP"/>
-  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138650253844977" entityLocationX="599" entityLocationY="16" entityWidth="150" tableName="COUNTRY"/>
-  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138650258758476" entityLocationX="321" entityLocationY="255" entityWidth="150" tableName="TOURS"/>
-  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138650254703840" entityLocationX="418" entityLocationY="17" entityWidth="150" tableName="LIST_OF_SONGS"/>
-  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138650257888135" entityLocationX="239" entityLocationY="16" entityWidth="150" tableName="SINGERS"/>
-  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138650256924961" entityLocationX="528" entityLocationY="256" entityWidth="150" tableName="SCHEDULE_OF_TOUR"/>
-  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138650242662741" entityLocationX="55" entityLocationY="16" entityWidth="150" tableName="GROUPS"/>
-</datamodel>

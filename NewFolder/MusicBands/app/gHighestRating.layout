@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="416px" prefWidth="753px">
+  <widget name="modelGrid" parent="Form" prefHeight="312px" prefWidth="684px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138721948075416" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+    <column name="Название группы">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <datamodelElement entityId="138721948075416" fieldName="NAME_OF_GROUP"/>
+    </column>
+    <column name="Рейтинг">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <datamodelElement entityId="138721948075416" fieldName="RATING"/>
+    </column>
+    <column name="Название песни">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <datamodelElement entityId="138721948075416" fieldName="Name_of_song"/>
+    </column>
+    <constraints height="312px" left="24px" top="48px" type="MarginConstraintsDesignInfo" width="684px"/>
+  </widget>
+  <widget name="label" parent="Form" prefHeight="17px" prefWidth="372px" text="Репертуар группы с наивысшим рейтингом" type="LabelDesignInfo">
+    <constraints height="17px" left="204px" top="12px" type="MarginConstraintsDesignInfo" width="372px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="29px" prefWidth="132px" text="Закрыть" type="ButtonDesignInfo">
+    <constraints bottom="15px" height="29px" right="45px" type="MarginConstraintsDesignInfo" width="132px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

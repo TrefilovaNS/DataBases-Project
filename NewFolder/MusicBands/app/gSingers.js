@@ -54,8 +54,8 @@ var self= this;
 function formWindowOpened(evt) {//GEN-FIRST:event_formWindowOpened
 	// TODO Добавьте свой код:
         // TODO Добавьте свой код:
-        self.model.params.Param1 = "%%"
-        self.model.qSearchSinger.requery();
+        self.model.params.Param1 = "%%";
+        self.model.qNewSearchSingers.requery();
 }//GEN-LAST:event_formWindowOpened
 
 //function modelGridMouseClicked(evt) {//GEN-FIRST:event_modelGridMouseClicked

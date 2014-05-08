@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><Context path="/music">
   <Realm className="org.apache.catalina.realm.DataSourceRealm" dataSourceName="Trefilova" digest="MD5" localDataSource="true" roleNameCol="GROUP_NAME" userCredCol="USR_PASSWD" userNameCol="USR_NAME" userRoleTable="MTD_GROUPS" userTable="MTD_USERS"/>
-  <Resource driverClassName="org.h2.Driver" name="Belova" password="" schema="PUBLIC" type="javax.sql.DataSource" url="jdbc:h2:tcp://localhost/~/Downloads/Belova/NewLibrary" username="123"/>
-  <Resource driverClassName="org.h2.Driver" name="test_db" password="" schema="PUBLIC" type="javax.sql.DataSource" url="jdbc:h2:tcp://localhost/~/test_db" username="sa"/>
-  <Resource driverClassName="org.h2.Driver" name="Trefilova" password="123" schema="PUBLIC" type="javax.sql.DataSource" url="jdbc:h2:tcp://localhost/~/workspace/Trefilova/MusicBands_db" username="natali"/>
-  <Resource driverClassName="oracle.jdbc.OracleDriver" name="Transport" password="ptrans3" schema="TRANS3" type="javax.sql.DataSource" url="jdbc:oracle:thin:@192.168.10.205:1521:DBALT" username="trans3"/>
-  <Resource driverClassName="org.postgresql.Driver" name="PgTransp" password="trans" schema="trans3" type="javax.sql.DataSource" url="jdbc:postgresql://192.168.10.85:5432/Trans" username="trans"/>
+  <Resource driverClassName="org.h2.Driver" name="Trefilova" password="123" schema="PUBLIC" type="javax.sql.DataSource" url="jdbc:h2:tcp://localhost:9092/MusicBands_db" username="natali"/>
 </Context>

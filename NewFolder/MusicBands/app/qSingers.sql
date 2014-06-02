@@ -2,6 +2,7 @@
  *
  * @author natali
  * @name qSingers
+ * @public
  */ 
 Select * 
 From Singers q1

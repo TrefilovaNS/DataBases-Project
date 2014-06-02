@@ -3,7 +3,8 @@
  * @author natali
  * @name Main
  */
-
+function Main(){
+    var self = this;
 function singersActionPerformed(evt) {//GEN-FIRST:event_singersActionPerformed
 	// TODO Добавьте свой код:
         var singers = new gSingers();
@@ -33,3 +34,4 @@ function toursActionPerformed(evt) {//GEN-FIRST:event_toursActionPerformed
         var tours = new gTours();
         tours.showModal();
 }//GEN-LAST:event_toursActionPerformed
+}

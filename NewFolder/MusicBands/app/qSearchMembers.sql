@@ -2,6 +2,7 @@
  *
  * @author natali
  * @name qSearchMembers
+ * @public
  */ 
 Select * 
 From Members q1

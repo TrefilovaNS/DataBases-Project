@@ -3,6 +3,6 @@
     <parameter description="" name="gID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
   </parameters>
   <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
-  <entity Title="Groups" entityHeight="200" entityIconified="false" entityId="138678096012933" entityLocationX="185" entityLocationY="12" entityWidth="150" queryId="Groups" tableAlias="q1" tableName="" tableSchemaName=""/>
-  <relation leftEntityId="-1" leftEntityParameterName="gID" rightEntityFieldName="G_ID" rightEntityId="138678096012933"/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="140169418699749" entityLocationX="185" entityLocationY="12" entityWidth="150" tableAlias="q1" tableName="Groups" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="gID" rightEntityFieldName="g_id" rightEntityId="140169418699749"/>
 </datamodel>

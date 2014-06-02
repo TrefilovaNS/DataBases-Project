@@ -2,6 +2,7 @@
  *
  * @author natali
  * @name qSongs
+ * @public
  */ 
 Select * 
 From Songs q1

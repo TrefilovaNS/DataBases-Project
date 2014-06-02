@@ -2,6 +2,7 @@
  *
  * @author natali
  * @name qMembers
+ * @public
  */ 
 Select * 
 From MembersID q1

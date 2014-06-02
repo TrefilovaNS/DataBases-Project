@@ -3,6 +3,6 @@
     <parameter description="" name="tID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
   </parameters>
   <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
-  <entity Title="qSearchTour" entityHeight="200" entityIconified="false" entityId="138711143726107" entityLocationX="217" entityLocationY="-4" entityWidth="150" queryId="qSearchTour" tableAlias="q1" tableName="" tableSchemaName=""/>
-  <relation leftEntityId="-1" leftEntityParameterName="tID" rightEntityFieldName="T_ID" rightEntityId="138711143726107"/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="140169418352678" entityLocationX="217" entityLocationY="-4" entityWidth="150" queryId="qSearchTour" tableAlias="q1" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="tID" rightEntityFieldName="t_id" rightEntityId="140169418352678"/>
 </datamodel>

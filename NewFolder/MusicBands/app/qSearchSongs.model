@@ -3,8 +3,8 @@
     <parameter description="" name="Param1" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="12" typeName="VARCHAR"/>
   </parameters>
   <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
-  <entity Title="Groups" entityHeight="200" entityIconified="false" entityId="138685797969442" entityLocationX="433" entityLocationY="12" entityWidth="150" queryId="Groups" tableAlias="q" tableName="" tableSchemaName=""/>
-  <entity Title="Songs" entityHeight="200" entityIconified="false" entityId="138685794032061" entityLocationX="221" entityLocationY="17" entityWidth="150" queryId="Songs" tableAlias="q1" tableName="" tableSchemaName=""/>
-  <relation leftEntityFieldName="G_ID" leftEntityId="138685794032061" rightEntityFieldName="G_ID" rightEntityId="138685797969442"/>
-  <relation leftEntityFieldName="NAME_OF_SONG" leftEntityId="138685794032061" rightEntityId="-1" rightEntityParameterName="Param1"/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="140169422504409" entityLocationX="221" entityLocationY="17" entityWidth="150" queryId="Songs" tableAlias="q1" tableName="" tableSchemaName=""/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="140169422435429" entityLocationX="433" entityLocationY="12" entityWidth="150" tableAlias="q" tableName="Groups" tableSchemaName=""/>
+  <relation leftEntityFieldName="name_of_song" leftEntityId="140169422504409" rightEntityId="-1" rightEntityParameterName="Param1"/>
+  <relation leftEntityFieldName="g_id" leftEntityId="140169422504409" rightEntityFieldName="g_id" rightEntityId="140169422435429"/>
 </datamodel>

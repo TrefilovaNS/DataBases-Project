@@ -3,6 +3,7 @@
  * @author natali
  * @name gAddGroup
  */
+
 var self=this;
 function saveActionPerformed(evt) {//GEN-FIRST:event_saveActionPerformed
 	// TODO Добавьте свой код:

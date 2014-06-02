@@ -3,6 +3,6 @@
     <parameter description="" name="songID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
   </parameters>
   <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
-  <entity Title="Songs" entityHeight="200" entityIconified="false" entityId="138685778752438" entityLocationX="188" entityLocationY="9" entityWidth="150" queryId="Songs" tableAlias="q1" tableName="" tableSchemaName=""/>
-  <relation leftEntityId="-1" leftEntityParameterName="songID" rightEntityFieldName="LIST_OF_SONGS_ID" rightEntityId="138685778752438"/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="140169423930502" entityLocationX="188" entityLocationY="9" entityWidth="150" queryId="Songs" tableAlias="q1" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="songID" rightEntityFieldName="list_of_songs_id" rightEntityId="140169423930502"/>
 </datamodel>

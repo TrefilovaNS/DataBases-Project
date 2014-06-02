@@ -3,6 +3,7 @@
  * @author natali
  * @name gTours
  */
+function gTours(){
 var self=this;
 function refresh(some){
     Logger.info("here");
@@ -35,8 +36,8 @@ function textFieldActionPerformed(evt) {//GEN-FIRST:event_textFieldActionPerform
 
 function searchActionPerformed(evt) {//GEN-FIRST:event_searchActionPerformed
 	// TODO Добавьте свой код:
-        Param1="%" + textField.text + "%";
-        self.qSearchTour.requery();
+//        Param1="%" + textField.text + "%";
+//        self.qSearchTour.requery();
                
 }//GEN-LAST:event_searchActionPerformed
 
@@ -46,18 +47,19 @@ function closeWinActionPerformed(evt) {//GEN-FIRST:event_closeWinActionPerformed
 }//GEN-LAST:event_closeWinActionPerformed
 
 function addActionPerformed(evt) {//GEN-FIRST:event_addActionPerformed
-        addWin();
+//        addWin();
 }//GEN-LAST:event_addActionPerformed
 
 function deleteActionPerformed(evt) {//GEN-FIRST:event_deleteActionPerformed
-    if (confirm('Действительно удалить?', title)) {
-    qSearchTour.deleteRow();
-}
+//    if (confirm('Действительно удалить?', title)) {
+//    qSearchTour.deleteRow();
+//}
 	
 }//GEN-LAST:event_deleteActionPerformed
 
 function formWindowOpened(evt) {//GEN-FIRST:event_formWindowOpened
 	// TODO Добавьте свой код:
-        Param1 = "%%"
-        qSearchTour.requery();
+        self.model.Param1 = "%%"
+        self.model.qSearchTour.requery();
 }//GEN-LAST:event_formWindowOpened
+}

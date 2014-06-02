@@ -2,6 +2,7 @@
  *
  * @author natali
  * @name qHighestRating
+ * @public
  */ 
 Select t.NAME_OF_GROUP, t.RATING, t2.Name_of_song
 From GROUPS t

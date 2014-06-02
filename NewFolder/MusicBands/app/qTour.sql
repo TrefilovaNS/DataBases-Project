@@ -2,6 +2,7 @@
  *
  * @author natali
  * @name qTour
+ * @public
  */ 
 Select * 
 From ToursID q1

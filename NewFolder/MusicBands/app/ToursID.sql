@@ -2,6 +2,7 @@
  *
  * @author natali
  * @name ToursID
+ * @public
  */ 
 Select  t2.T_ID, t.G_ID, t2.SCHEDULE_OF_TOUR_ID, Name_of_town, StartDate, EndDate, Average_price
 From GROUPS t1

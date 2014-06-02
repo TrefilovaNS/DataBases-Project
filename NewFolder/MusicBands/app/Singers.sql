@@ -2,7 +2,7 @@
  *
  * @author natali
  * @name Singers
-*  @manual
+ * @public
  */ 
 Select * 
 From SINGERS t1

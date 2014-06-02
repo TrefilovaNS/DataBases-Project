@@ -2,6 +2,7 @@
  *
  * @author natali
  * @name qCreateTour
+ * @public
  */ 
 Select * 
 From qSearchTour q1

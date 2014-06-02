@@ -2,6 +2,7 @@
  *
  * @author natali
  * @name qGroups
+ * @public
  */ 
 Select * 
 From Groups q1

@@ -2,6 +2,7 @@
  *
  * @author natali
  * @name MembersID
+ * @public
  */ 
 Select t.S_ID, t.G_ID, t.Members_of_group_ID
 From SINGERS t1

@@ -2,6 +2,7 @@
  *
  * @author natali
  * @name Tours
+ * @public
  */ 
 Select SCHEDULE_OF_TOUR_ID, Name_of_group, Name_of_tour
 , Name_of_town, Startdate, Enddate

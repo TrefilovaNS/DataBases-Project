@@ -2,7 +2,7 @@
   <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="24px" prefWidth="60px" text="&gt;&gt;" type="ButtonDesignInfo">
     <constraints bottom="9px" height="24px" left="490px" type="MarginConstraintsDesignInfo" width="60px"/>
   </widget>
-  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="36px" prefWidth="324px" text="Группа, участник которой не старше 20 лет" type="LabelDesignInfo">
+  <widget horizontalAlignment="0" name="gLabel" parent="Form" prefHeight="36px" prefWidth="324px" text="Группа, участник которой не старше 20 лет" type="LabelDesignInfo">
     <constraints bottom="5px" height="36px" left="144px" type="MarginConstraintsDesignInfo" width="324px"/>
   </widget>
   <widget actionPerformed="DeleteActionPerformed" name="Delete" parent="Form" prefHeight="30px" prefWidth="144px" text="Удалить" type="ButtonDesignInfo">
@@ -11,8 +11,8 @@
   <widget actionPerformed="AddActionPerformed" name="Add" parent="Form" prefHeight="29px" prefWidth="144px" text="Добавить" type="ButtonDesignInfo">
     <constraints bottom="48px" height="29px" left="156px" type="MarginConstraintsDesignInfo" width="144px"/>
   </widget>
-  <widget actionPerformed="CloseWinActionPerformed" name="CloseWin" parent="Form" prefHeight="24px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
-    <constraints bottom="89px" height="24px" right="26px" type="MarginConstraintsDesignInfo" width="108px"/>
+  <widget actionPerformed="CloseWinActionPerformed" name="CloseWin" parent="Form" prefHeight="24px" prefWidth="144px" text="Завершить сеанс" type="ButtonDesignInfo">
+    <constraints bottom="89px" height="24px" right="2px" type="MarginConstraintsDesignInfo" width="144px"/>
   </widget>
   <widget actionPerformed="SearchActionPerformed" name="Search" parent="Form" prefHeight="24px" prefWidth="62px" text="ОК" type="ButtonDesignInfo">
     <constraints bottom="89px" height="24px" right="156px" type="MarginConstraintsDesignInfo" width="62px"/>
@@ -24,107 +24,62 @@
     <constraints bottom="89px" height="24px" left="36px" type="MarginConstraintsDesignInfo" width="72px"/>
   </widget>
   <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="254px" prefWidth="742px" type="DbGridDesignInfo">
+    <column name="Имя">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="139948454585981" fieldName="fullName"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="Год рождения">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="139948454585981" fieldName="year_of_birhday"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="Амплуа">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="139948454585981" fieldName="role_of_group"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
     <rowsColumnsDesignInfo>
       <rowsDatasource entityId="139948454585981" field="false"/>
     </rowsColumnsDesignInfo>
     <treeDesignInfo/>
-    <column name="colS_id">
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="139948454585981" fieldName="s_id"/>
-      <cellDesignInfo>
-        <cellValueField/>
-        <columnsKeyField/>
-        <rowsKeyField/>
-      </cellDesignInfo>
-      <cellsDatasource/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="colFirstname">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="139948454585981" fieldName="firstname"/>
-      <cellDesignInfo>
-        <cellValueField/>
-        <columnsKeyField/>
-        <rowsKeyField/>
-      </cellDesignInfo>
-      <cellsDatasource/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="colLastname">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="139948454585981" fieldName="lastname"/>
-      <cellDesignInfo>
-        <cellValueField/>
-        <columnsKeyField/>
-        <rowsKeyField/>
-      </cellDesignInfo>
-      <cellsDatasource/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="colYear_of_birhday">
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="139948454585981" fieldName="year_of_birhday"/>
-      <cellDesignInfo>
-        <cellValueField/>
-        <columnsKeyField/>
-        <rowsKeyField/>
-      </cellDesignInfo>
-      <cellsDatasource/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="colRole_of_group">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="139948454585981" fieldName="role_of_group"/>
-      <cellDesignInfo>
-        <cellValueField/>
-        <columnsKeyField/>
-        <rowsKeyField/>
-      </cellDesignInfo>
-      <cellsDatasource/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
-    <column name="colFullName">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="139948454585981" fieldName="fullName"/>
-      <cellDesignInfo>
-        <cellValueField/>
-        <columnsKeyField/>
-        <rowsKeyField/>
-      </cellDesignInfo>
-      <cellsDatasource/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-    </column>
     <constraints bottom="137px" left="22px" right="6px" top="70px" type="MarginConstraintsDesignInfo"/>
   </widget>
   <widget horizontalAlignment="0" name="info" parent="Form" prefHeight="17px" prefWidth="730px" text="Дважды щелкните по значению, которое хотите изменить" type="LabelDesignInfo">
     <constraints height="17px" left="34px" right="6px" top="46px" type="MarginConstraintsDesignInfo"/>
   </widget>
-  <widget horizontalAlignment="0" name="aTitle" parent="Form" prefHeight="17px" prefWidth="502px" text="Исполнители" type="LabelDesignInfo">
-    <constraints height="17px" left="142px" right="126px" top="22px" type="MarginConstraintsDesignInfo"/>
+  <widget horizontalAlignment="0" name="aTitle" parent="Form" prefHeight="36px" prefWidth="502px" text="Исполнители" type="LabelDesignInfo">
+    <constraints height="36px" left="144px" top="12px" type="MarginConstraintsDesignInfo" width="502px"/>
     <easFont name="Ubuntu" size="18"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>

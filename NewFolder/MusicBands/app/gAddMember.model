@@ -7,6 +7,6 @@
   <entity Name="groups" Title="Groups" entityHeight="200" entityIconified="false" entityId="138685359454578" entityLocationX="80" entityLocationY="139" entityWidth="150" queryId="Groups" tableName="" tableSchemaName=""/>
   <entity Name="qSingersFullName" Title="qSingersFullName" entityHeight="200" entityIconified="false" entityId="138685357838231" entityLocationX="347" entityLocationY="8" entityWidth="150" queryId="qSingersFullName" tableName="" tableSchemaName=""/>
   <relation leftEntityId="-1" leftEntityParameterName="mID" rightEntityId="138685356803221" rightEntityParameterName="Members_ID"/>
-  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138685356803221" rightEntityFieldName="G_ID" rightEntityId="138685359454578"/>
-  <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138685356803221" rightEntityFieldName="S_ID" rightEntityId="138685357838231"/>
+  <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138685356803221" rightEntityFieldName="s_id" rightEntityId="138685357838231"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138685356803221" rightEntityFieldName="g_id" rightEntityId="138685359454578"/>
 </datamodel>

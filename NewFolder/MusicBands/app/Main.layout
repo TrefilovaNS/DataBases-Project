@@ -11,12 +11,13 @@
   <widget actionPerformed="groupsActionPerformed" cursor="12" horizontalTextPosition="0" icon="img/groups.png" name="groups" parent="Form" prefHeight="72px" prefWidth="84px" type="ButtonDesignInfo">
     <constraints height="72px" left="228px" top="180px" type="MarginConstraintsDesignInfo" width="84px"/>
   </widget>
-  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="24px" prefWidth="288px" text="ИС Музыкальные группы" type="LabelDesignInfo">
+  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="36px" prefWidth="612px" text="ИС Музыкальные группы" type="LabelDesignInfo">
+    <constraints height="36px" left="72px" right="72px" top="12px" type="MarginConstraintsDesignInfo"/>
     <easFont name="Impact" size="24"/>
-    <constraints height="24px" left="240px" right="228px" top="24px" type="MarginConstraintsDesignInfo"/>
   </widget>
-  <widget horizontalAlignment="0" name="label1" parent="Form" prefHeight="17px" prefWidth="636px" text="Добро пожаловать! Выберите, пожалуйста, интересующую Вас область данных" type="LabelDesignInfo">
-    <constraints height="17px" left="48px" right="72px" top="72px" type="MarginConstraintsDesignInfo"/>
+  <widget horizontalAlignment="0" name="label1" opaque="true" parent="Form" prefHeight="30px" prefWidth="732px" text="Добро пожаловать! Выберите, пожалуйста, интересующую Вас область данных" type="LabelDesignInfo">
+    <constraints height="30px" left="12px" right="12px" top="72px" type="MarginConstraintsDesignInfo"/>
+    <easFont name="Ubuntu" size="14"/>
   </widget>
   <widget actionPerformed="singersActionPerformed" cursor="12" horizontalTextPosition="0" icon="img/singers.png" name="singers" parent="Form" prefHeight="72px" prefWidth="84px" type="ButtonDesignInfo">
     <constraints height="72px" left="132px" top="120px" type="MarginConstraintsDesignInfo" width="84px"/>

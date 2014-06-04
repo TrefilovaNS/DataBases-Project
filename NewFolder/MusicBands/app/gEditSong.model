@@ -6,5 +6,5 @@
   <entity Name="groups" Title="Groups" entityHeight="200" entityIconified="false" entityId="138686368699846" entityLocationX="394" entityLocationY="12" entityWidth="150" queryId="Groups" tableName="" tableSchemaName=""/>
   <entity Name="qSongs" Title="qSongs" entityHeight="200" entityIconified="false" entityId="138686431150056" entityLocationX="203" entityLocationY="19" entityWidth="150" queryId="qSongs" tableName="" tableSchemaName=""/>
   <relation leftEntityId="-1" leftEntityParameterName="song_ID" rightEntityId="138686431150056" rightEntityParameterName="songID"/>
-  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138686431150056" rightEntityFieldName="G_ID" rightEntityId="138686368699846"/>
+  <referenceRelation leftEntityFieldName="g_id" leftEntityId="138686431150056" rightEntityFieldName="g_id" rightEntityId="138686368699846"/>
 </datamodel>

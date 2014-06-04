@@ -3,8 +3,8 @@
     <parameter description="" name="Param1" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="12" typeName="VARCHAR"/>
   </parameters>
   <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
-  <entity Title="" entityHeight="200" entityIconified="false" entityId="140169421068313" entityLocationX="425" entityLocationY="13" entityWidth="150" queryId="qCountry" tableAlias="q" tableName="" tableSchemaName=""/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="140188036331291" entityLocationX="425" entityLocationY="13" entityWidth="150" queryId="qCountry" tableAlias="q" tableName="" tableSchemaName=""/>
   <entity Title="" entityHeight="200" entityIconified="false" entityId="140169420994846" entityLocationX="247" entityLocationY="6" entityWidth="150" tableAlias="q1" tableName="Groups" tableSchemaName=""/>
-  <relation leftEntityFieldName="c_id" leftEntityId="140169420994846" rightEntityFieldName="c_id" rightEntityId="140169421068313"/>
   <relation leftEntityFieldName="name_of_group" leftEntityId="140169420994846" rightEntityId="-1" rightEntityParameterName="Param1"/>
+  <relation leftEntityFieldName="c_id" leftEntityId="140169420994846" rightEntityFieldName="c_id" rightEntityId="140188036331291"/>
 </datamodel>

@@ -3,10 +3,10 @@
     <parameter description="" name="mID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
   </parameters>
   <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
-  <entity Name="groups" Title="Groups" entityHeight="200" entityIconified="false" entityId="138685279034709" entityLocationX="163" entityLocationY="149" entityWidth="150" queryId="Groups" tableName="" tableSchemaName=""/>
   <entity Name="qMembers" Title="qMembers" entityHeight="200" entityIconified="false" entityId="138685277461157" entityLocationX="202" entityLocationY="27" entityWidth="150" queryId="qMembers" tableName="" tableSchemaName=""/>
+  <entity Name="groups" Title="Groups" entityHeight="200" entityIconified="false" entityId="138685279034709" entityLocationX="163" entityLocationY="149" entityWidth="150" queryId="Groups" tableName="" tableSchemaName=""/>
   <entity Name="qSingersFullName" Title="qSingersFullName" entityHeight="200" entityIconified="false" entityId="138685218721239" entityLocationX="408" entityLocationY="12" entityWidth="150" queryId="qSingersFullName" tableName="" tableSchemaName=""/>
   <relation leftEntityId="-1" leftEntityParameterName="mID" rightEntityId="138685277461157" rightEntityParameterName="Members_ID"/>
-  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138685277461157" rightEntityFieldName="G_ID" rightEntityId="138685279034709"/>
-  <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138685277461157" rightEntityFieldName="S_ID" rightEntityId="138685218721239"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138685277461157" rightEntityFieldName="g_id" rightEntityId="138685279034709"/>
+  <referenceRelation leftEntityFieldName="S_ID" leftEntityId="138685277461157" rightEntityFieldName="s_id" rightEntityId="138685218721239"/>
 </datamodel>

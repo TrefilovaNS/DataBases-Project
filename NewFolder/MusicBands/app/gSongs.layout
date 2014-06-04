@@ -7,85 +7,85 @@
     <constraints height="17px" left="24px" top="36px" type="MarginConstraintsDesignInfo" width="738px"/>
   </widget>
   <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="211px" prefWidth="750px" type="DbGridDesignInfo">
-    <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="138685962651819" field="false"/>
-    </rowsColumnsDesignInfo>
-    <treeDesignInfo/>
     <column name="Название группы">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138685962651819" fieldName="Name_of_group"/>
-      <cellDesignInfo>
-        <cellValueField/>
-        <columnsKeyField/>
-        <rowsKeyField/>
-      </cellDesignInfo>
-      <cellsDatasource/>
+      <datamodelElement entityId="140188065883442" fieldName="Name_of_group"/>
       <columnsDatasource/>
       <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
     <column name="Название песни">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138685962651819" fieldName="Name_of_song"/>
-      <cellDesignInfo>
-        <cellValueField/>
-        <columnsKeyField/>
-        <rowsKeyField/>
-      </cellDesignInfo>
-      <cellsDatasource/>
+      <datamodelElement entityId="140188065883442" fieldName="Name_of_song"/>
       <columnsDatasource/>
       <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
     <column name="Композитор">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138685962651819" fieldName="Composer"/>
-      <cellDesignInfo>
-        <cellValueField/>
-        <columnsKeyField/>
-        <rowsKeyField/>
-      </cellDesignInfo>
-      <cellsDatasource/>
+      <datamodelElement entityId="140188065883442" fieldName="Composer"/>
       <columnsDatasource/>
       <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
     <column name="Автор текста">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138685962651819" fieldName="Scriptwriter"/>
-      <cellDesignInfo>
-        <cellValueField/>
-        <columnsKeyField/>
-        <rowsKeyField/>
-      </cellDesignInfo>
-      <cellsDatasource/>
+      <datamodelElement entityId="140188065883442" fieldName="Scriptwriter"/>
       <columnsDatasource/>
       <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
-    <column name="Дата создания">
+    <column name="Дата создания песни">
       <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138685962651819" fieldName="Data_of_song"/>
-      <cellDesignInfo>
-        <cellValueField/>
-        <columnsKeyField/>
-        <rowsKeyField/>
-      </cellDesignInfo>
-      <cellsDatasource/>
+      <datamodelElement entityId="140188065883442" fieldName="Data_of_song"/>
       <columnsDatasource/>
       <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="140188065883442" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
     <constraints height="211px" left="12px" top="60px" type="MarginConstraintsDesignInfo" width="750px"/>
   </widget>
   <widget name="searchText" parent="Form" prefHeight="24px" prefWidth="72px" text="Поиск" type="LabelDesignInfo">
@@ -97,8 +97,8 @@
   <widget actionPerformed="searchActionPerformed" name="search" parent="Form" prefHeight="24px" prefWidth="62px" text="ОК" type="ButtonDesignInfo">
     <constraints bottom="59px" height="24px" right="176px" type="MarginConstraintsDesignInfo" width="62px"/>
   </widget>
-  <widget actionPerformed="closeWinActionPerformed" name="closeWin" parent="Form" prefHeight="24px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
-    <constraints bottom="59px" height="24px" right="34px" type="MarginConstraintsDesignInfo" width="108px"/>
+  <widget actionPerformed="closeWinActionPerformed" name="closeWin" parent="Form" prefHeight="24px" prefWidth="120px" text="Завершить сеанс" type="ButtonDesignInfo">
+    <constraints bottom="59px" height="24px" right="34px" type="MarginConstraintsDesignInfo" width="120px"/>
   </widget>
   <widget actionPerformed="addActionPerformed" name="add" parent="Form" prefHeight="29px" prefWidth="144px" text="Добавить" type="ButtonDesignInfo">
     <constraints bottom="18px" height="29px" left="144px" type="MarginConstraintsDesignInfo" width="144px"/>

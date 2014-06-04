@@ -8,26 +8,30 @@ var self=this;
 function refresh(some){
     Logger.info("here");
     Logger.info(some);
-    self.qSearchTour.requery();
+    self.model.qSearchTour.requery();
 }
 function editWin(){
     var artst = new gEditTour();
-    artst.shID = self.qSearchTour.SCHEDULE_OF_TOUR_ID;
+    artst.shID = self.model.qSearchTour.SCHEDULE_OF_TOUR_ID;
     artst.showModal(refresh);
 }
 function addWin(){
-    self.qSearchTour.insert();
+    self.model.qSearchTour.insert();
     self.model.save();
-    Logger.info(self.qSearchTour.SCHEDULE_OF_TOUR_ID);
+    Logger.info(self.model.qSearchTour.SCHEDULE_OF_TOUR_ID);
     var artst = new gAddTour();    
-    artst.shedID = self.qSearchTour.SCHEDULE_OF_TOUR_ID;
+    artst.shedID = self.model.qSearchTour.SCHEDULE_OF_TOUR_ID;
     artst.showModal(refresh);
 }
 function modelGridMouseClicked(evt) {//GEN-FIRST:event_modelGridMouseClicked
 	// TODO Добавьте свой код:
-        if (evt.clickCount>1){
+        try{
+            if (evt.clickCount>1){
             editWin();
         }
+    }catch(ex){
+        alert("Нет доступа");
+    }
 }//GEN-LAST:event_modelGridMouseClicked
 
 function textFieldActionPerformed(evt) {//GEN-FIRST:event_textFieldActionPerformed
@@ -36,30 +40,40 @@ function textFieldActionPerformed(evt) {//GEN-FIRST:event_textFieldActionPerform
 
 function searchActionPerformed(evt) {//GEN-FIRST:event_searchActionPerformed
 	// TODO Добавьте свой код:
-//        Param1="%" + textField.text + "%";
-//        self.qSearchTour.requery();
+        Param1="%" + textField.text + "%";
+        self.model.qSearchTour.requery();
                
 }//GEN-LAST:event_searchActionPerformed
 
 function closeWinActionPerformed(evt) {//GEN-FIRST:event_closeWinActionPerformed
 	// TODO Добавьте свой код:
-        self.close("hello from close");
+        logout();
 }//GEN-LAST:event_closeWinActionPerformed
 
 function addActionPerformed(evt) {//GEN-FIRST:event_addActionPerformed
-//        addWin();
+        try{
+            addWin();
+        }catch(ex){
+            alert("Нет доступа");
+        }
 }//GEN-LAST:event_addActionPerformed
 
 function deleteActionPerformed(evt) {//GEN-FIRST:event_deleteActionPerformed
-//    if (confirm('Действительно удалить?', title)) {
-//    qSearchTour.deleteRow();
-//}
+   var srv = new ServerModule("testServ"); 
+   if(srv.getName() === "admin"){
+        if (confirm('Действительно удалить?')) {
+    qSearchTour.deleteRow();
+}
+    }else{
+                alert("Нет доступа");
+            }
+
 	
 }//GEN-LAST:event_deleteActionPerformed
 
 function formWindowOpened(evt) {//GEN-FIRST:event_formWindowOpened
 	// TODO Добавьте свой код:
-        self.model.Param1 = "%%"
+        self.model.Param1 = "%%";
         self.model.qSearchTour.requery();
 }//GEN-LAST:event_formWindowOpened
 }

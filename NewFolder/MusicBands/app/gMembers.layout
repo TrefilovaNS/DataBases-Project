@@ -5,8 +5,8 @@
   <widget actionPerformed="addActionPerformed" name="add" parent="Form" prefHeight="29px" prefWidth="144px" text="Добавить" type="ButtonDesignInfo">
     <constraints bottom="15px" height="29px" left="156px" type="MarginConstraintsDesignInfo" width="144px"/>
   </widget>
-  <widget actionPerformed="closeWinActionPerformed" name="closeWin" parent="Form" prefHeight="24px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
-    <constraints bottom="56px" height="24px" right="32px" type="MarginConstraintsDesignInfo" width="108px"/>
+  <widget actionPerformed="closeWinActionPerformed" name="Завершить сеанс" parent="Form" prefHeight="24px" prefWidth="120px" text="Завершить сеанс" type="ButtonDesignInfo">
+    <constraints bottom="56px" height="24px" right="32px" type="MarginConstraintsDesignInfo" width="120px"/>
   </widget>
   <widget actionPerformed="searchActionPerformed" name="search" parent="Form" prefHeight="24px" prefWidth="62px" text="ОК" type="ButtonDesignInfo">
     <constraints bottom="56px" height="24px" right="162px" type="MarginConstraintsDesignInfo" width="62px"/>
@@ -18,8 +18,24 @@
     <constraints bottom="56px" height="24px" left="36px" type="MarginConstraintsDesignInfo" width="72px"/>
   </widget>
   <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="286px" prefWidth="745px" type="DbGridDesignInfo">
+    <column name="Имя">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="140170654267989" fieldName="fullName"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
     <column name="Название группы">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="140170654267989" fieldName="Name_of_group"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -31,25 +47,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138685701846649" fieldName="Name_of_group"/>
-    </column>
-    <column name="Исполнитель">
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <datamodelElement entityId="138685701846649" fieldName="fullName"/>
     </column>
     <column name="Возраст">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="140170654267989" fieldName="Age"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -61,10 +62,10 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138685701846649" fieldName="Age"/>
     </column>
     <column name="Амплуа">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="140170654267989" fieldName="Role_of_group"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -76,19 +77,18 @@
       <headerStyle>
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
-      <datamodelElement entityId="138685701846649" fieldName="Role_of_group"/>
     </column>
-    <treeDesignInfo/>
     <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="138685701846649" field="false"/>
+      <rowsDatasource entityId="140170654267989" field="false"/>
     </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
     <constraints height="286px" left="12px" top="60px" type="MarginConstraintsDesignInfo" width="745px"/>
   </widget>
   <widget horizontalAlignment="0" name="info" parent="Form" prefHeight="17px" prefWidth="733px" text="Дважды щелкните по значению, которое хотите изменить" type="LabelDesignInfo">
     <constraints height="17px" left="24px" top="36px" type="MarginConstraintsDesignInfo" width="733px"/>
   </widget>
-  <widget horizontalAlignment="0" name="title" parent="Form" prefHeight="17px" prefWidth="505px" text="Участники групп" type="LabelDesignInfo">
-    <constraints height="17px" left="132px" top="12px" type="MarginConstraintsDesignInfo" width="505px"/>
+  <widget horizontalAlignment="0" name="aTitle" parent="Form" prefHeight="36px" prefWidth="505px" text="Участники групп" type="LabelDesignInfo">
+    <constraints height="36px" left="132px" top="0px" type="MarginConstraintsDesignInfo" width="505px"/>
     <easFont name="Ubuntu" size="18"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>

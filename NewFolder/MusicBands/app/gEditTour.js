@@ -2,8 +2,10 @@
  * 
  * @author natali
  * @name gEditTour
+ * @rolesAllowed admin
  */
-var self=this;
+function gEditTour(){ 
+    var self=this;
 function closeWinActionPerformed(evt) {//GEN-FIRST:event_closeWinActionPerformed
 	// TODO Добавьте свой код:
         self.close("hello from close");
@@ -13,3 +15,4 @@ function saveActionPerformed(evt) {//GEN-FIRST:event_saveActionPerformed
 	// TODO Добавьте свой код:
         self.model.save();
 }//GEN-LAST:event_saveActionPerformed
+}

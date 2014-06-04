@@ -2,8 +2,10 @@
  * 
  * @author natali
  * @name gEditGroup
+ * @rolesAllowed admin
  */
-var self=this;
+function gEditGroup(){
+    var self=this;
 function closeWinActionPerformed(evt) {//GEN-FIRST:event_closeWinActionPerformed
 	// TODO Добавьте свой код:
         //Logger.info("hello")
@@ -14,3 +16,4 @@ function saveActionPerformed(evt) {//GEN-FIRST:event_saveActionPerformed
 	// TODO Добавьте свой код:
         self.model.save();
 }//GEN-LAST:event_saveActionPerformed
+}

@@ -7,7 +7,7 @@
   <entity Name="TOURS" Title="TOURS" entityHeight="200" entityIconified="false" entityId="138711462221985" entityLocationX="125" entityLocationY="204" entityWidth="150" tableName="TOURS" tableSchemaName=""/>
   <entity Name="qTour" Title="qTour" entityHeight="200" entityIconified="false" entityId="138711460713448" entityLocationX="232" entityLocationY="40" entityWidth="150" queryId="qTour" tableName="" tableSchemaName=""/>
   <relation leftEntityId="-1" leftEntityParameterName="shedID" rightEntityId="138711460713448" rightEntityParameterName="SCHEDULE_ID"/>
-  <referenceRelation leftEntityFieldName="T_ID" leftEntityId="138711460713448" rightEntityFieldName="T_ID" rightEntityId="138711462221985"/>
-  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138711460713448" rightEntityFieldName="G_ID" rightEntityId="138711461539201"/>
-  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138711462221985" rightEntityFieldName="G_ID" rightEntityId="138711461539201"/>
+  <referenceRelation leftEntityFieldName="G_ID" leftEntityId="138711460713448" rightEntityFieldName="g_id" rightEntityId="138711461539201"/>
+  <referenceRelation leftEntityFieldName="g_id" leftEntityId="138711462221985" rightEntityFieldName="g_id" rightEntityId="138711461539201"/>
+  <referenceRelation leftEntityFieldName="T_ID" leftEntityId="138711460713448" rightEntityFieldName="t_id" rightEntityId="138711462221985"/>
 </datamodel>

@@ -6,5 +6,4 @@
   <entity Name="qGroups" Title="qGroups" entityHeight="200" entityIconified="false" entityId="138678185740648" entityLocationX="220" entityLocationY="30" entityWidth="150" queryId="qGroups" tableName="" tableSchemaName=""/>
   <entity Name="qCountry" Title="qCountry" entityHeight="200" entityIconified="false" entityId="138678186525984" entityLocationX="420" entityLocationY="30" entityWidth="150" queryId="qCountry" tableName="" tableSchemaName=""/>
   <relation leftEntityId="-1" leftEntityParameterName="groupID" rightEntityId="138678185740648" rightEntityParameterName="gID"/>
-  <referenceRelation leftEntityFieldName="c_id" leftEntityId="138678185740648" rightEntityFieldName="c_id" rightEntityId="138678186525984"/>
 </datamodel>

@@ -5,6 +5,10 @@
  */
 function Main(){
     var self = this;
+    
+    var srv = new ServerModule("testServ"); 
+   self.label3.text = srv.getName();
+    
 function singersActionPerformed(evt) {//GEN-FIRST:event_singersActionPerformed
 	// TODO Добавьте свой код:
         var singers = new gSingers();
@@ -31,7 +35,12 @@ function membersActionPerformed(evt) {//GEN-FIRST:event_membersActionPerformed
 
 function toursActionPerformed(evt) {//GEN-FIRST:event_toursActionPerformed
 	// TODO Добавьте свой код:
-        var tours = new gTours();
+        var tours = new gTour();
         tours.showModal();
 }//GEN-LAST:event_toursActionPerformed
+
+    function buttonActionPerformed(evt) {//GEN-FIRST:event_buttonActionPerformed
+        // TODO Добавьте свой код:
+        logout();
+    }//GEN-LAST:event_buttonActionPerformed
 }

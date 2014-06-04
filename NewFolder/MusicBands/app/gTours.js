@@ -40,7 +40,7 @@ function textFieldActionPerformed(evt) {//GEN-FIRST:event_textFieldActionPerform
 
 function searchActionPerformed(evt) {//GEN-FIRST:event_searchActionPerformed
 	// TODO Добавьте свой код:
-        Param1="%" + textField.text + "%";
+        self.model.params.Param1="%" + self.textField.text + "%";
         self.model.qSearchTour.requery();
                
 }//GEN-LAST:event_searchActionPerformed

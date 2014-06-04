@@ -15,12 +15,27 @@
     <constraints height="36px" left="72px" right="72px" top="12px" type="MarginConstraintsDesignInfo"/>
     <easFont name="Impact" size="24"/>
   </widget>
-  <widget horizontalAlignment="0" name="label1" opaque="true" parent="Form" prefHeight="30px" prefWidth="732px" text="Добро пожаловать! Выберите, пожалуйста, интересующую Вас область данных" type="LabelDesignInfo">
-    <constraints height="30px" left="12px" right="12px" top="72px" type="MarginConstraintsDesignInfo"/>
+  <widget horizontalAlignment="0" name="label1" opaque="true" parent="Form" prefHeight="30px" prefWidth="732px" text="Добро пожаловать! " type="LabelDesignInfo">
+    <constraints height="30px" left="12px" top="36px" type="MarginConstraintsDesignInfo" width="732px"/>
     <easFont name="Ubuntu" size="14"/>
   </widget>
   <widget actionPerformed="singersActionPerformed" cursor="12" horizontalTextPosition="0" icon="img/singers.png" name="singers" parent="Form" prefHeight="72px" prefWidth="84px" type="ButtonDesignInfo">
     <constraints height="72px" left="132px" top="120px" type="MarginConstraintsDesignInfo" width="84px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="29px" prefWidth="144px" text="Завершить сеанс" type="ButtonDesignInfo">
+    <constraints bottom="26px" height="29px" right="36px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <widget name="label2" parent="Form" prefHeight="26px" prefWidth="144px" text="Вы зашли как " type="LabelDesignInfo">
+    <constraints height="26px" left="48px" top="72px" type="MarginConstraintsDesignInfo" width="144px"/>
+    <easFont name="Ubuntu" size="13"/>
+  </widget>
+  <widget name="label3" parent="Form" prefHeight="26px" prefWidth="60px" text="label3" type="LabelDesignInfo">
+    <constraints height="26px" left="168px" top="72px" type="MarginConstraintsDesignInfo" width="60px"/>
+    <easFont name="Ubuntu" size="13" style="2"/>
+  </widget>
+  <widget name="label4" parent="Form" prefHeight="26px" prefWidth="480px" text="Выберите, пожалуйста, интересующую Вас область данных" type="LabelDesignInfo">
+    <constraints height="26px" left="228px" top="72px" type="MarginConstraintsDesignInfo" width="480px"/>
+    <easFont name="Ubuntu" size="13"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>
 </layout>

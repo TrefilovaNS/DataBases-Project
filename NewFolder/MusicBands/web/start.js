@@ -5,8 +5,8 @@ if (!platypus) {
 	var platypus = {};
 }
 platypus.ready = function() {
-	require(['gTours'], function(){
-		var f = new gTours();
+	require(['Main'], function(){
+		var f = new Main();
 		f.show();
 	});
 };

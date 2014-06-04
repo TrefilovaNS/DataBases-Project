@@ -24,9 +24,13 @@
     <constraints bottom="89px" height="24px" left="36px" type="MarginConstraintsDesignInfo" width="72px"/>
   </widget>
   <widget editable="false" mouseClicked="modelGridMouseClicked" name="modelGrid" parent="Form" prefHeight="254px" prefWidth="742px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="140189793005295" field="false"/>
+    </rowsColumnsDesignInfo>
     <column name="Имя">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="139948454585981" fieldName="fullName"/>
+      <datamodelElement entityId="140189793005295" fieldName="fullName"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -41,7 +45,7 @@
     </column>
     <column name="Год рождения">
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="139948454585981" fieldName="year_of_birhday"/>
+      <datamodelElement entityId="140189793005295" fieldName="year_of_birhday"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -56,7 +60,7 @@
     </column>
     <column name="Амплуа">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="139948454585981" fieldName="role_of_group"/>
+      <datamodelElement entityId="140189793005295" fieldName="role_of_group"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -69,10 +73,6 @@
         <nativeFont name="Ubuntu" size="15"/>
       </headerStyle>
     </column>
-    <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="139948454585981" field="false"/>
-    </rowsColumnsDesignInfo>
-    <treeDesignInfo/>
     <constraints bottom="137px" left="22px" right="6px" top="70px" type="MarginConstraintsDesignInfo"/>
   </widget>
   <widget horizontalAlignment="0" name="info" parent="Form" prefHeight="17px" prefWidth="730px" text="Дважды щелкните по значению, которое хотите изменить" type="LabelDesignInfo">

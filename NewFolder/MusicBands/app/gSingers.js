@@ -26,7 +26,7 @@ function addArtist(){
 //
 function SearchActionPerformed(evt) {//GEN-FIRST:event_SearchActionPerformed
 	// TODO Добавьте свой код:
-        self.model.Param1="%" + self.textField.text + "%";
+        self.model.params.Param1 = "%" + self.textField.text + "%";
         self.model.qNewSearchSingers.requery();
                
 }//GEN-LAST:event_SearchActionPerformed

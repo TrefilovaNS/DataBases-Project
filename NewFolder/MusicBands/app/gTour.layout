@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="382px" prefWidth="804px">
+  <widget actionPerformed="closeWinActionPerformed" name="closeWin" parent="Form" prefHeight="24px" prefWidth="120px" text="Завершить сеанс" type="ButtonDesignInfo">
+    <constraints bottom="58px" height="24px" right="36px" type="MarginConstraintsDesignInfo" width="120px"/>
+  </widget>
+  <widget actionPerformed="searchActionPerformed" name="search" parent="Form" prefHeight="24px" prefWidth="62px" text="ОК" type="ButtonDesignInfo">
+    <constraints bottom="58px" height="24px" right="178px" type="MarginConstraintsDesignInfo" width="62px"/>
+  </widget>
+  <widget actionPerformed="deleteActionPerformed" name="delete" parent="Form" prefHeight="30px" prefWidth="144px" text="Удалить" type="ButtonDesignInfo">
+    <constraints bottom="16px" height="30px" left="324px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <widget actionPerformed="addActionPerformed" name="add" parent="Form" prefHeight="29px" prefWidth="144px" text="Добавить" type="ButtonDesignInfo">
+    <constraints bottom="17px" height="29px" left="156px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <widget actionPerformed="textFieldActionPerformed" horizontalAlignment="2" name="textField" parent="Form" prefHeight="24px" prefWidth="434px" type="TextFieldDesignInfo">
+    <constraints bottom="58px" height="24px" left="96px" type="MarginConstraintsDesignInfo" width="434px"/>
+  </widget>
+  <widget name="searchText" parent="Form" prefHeight="24px" prefWidth="72px" text="Поиск" type="LabelDesignInfo">
+    <constraints bottom="58px" height="24px" left="36px" type="MarginConstraintsDesignInfo" width="72px"/>
+  </widget>
+  <widget horizontalAlignment="0" name="aTitle" parent="Form" prefHeight="36px" prefWidth="510px" text="Гастроли" type="LabelDesignInfo">
+    <constraints height="36px" left="144px" top="0px" type="MarginConstraintsDesignInfo" width="510px"/>
+    <easFont name="Ubuntu" size="18"/>
+  </widget>
+  <widget horizontalAlignment="0" name="info" parent="Form" prefHeight="17px" prefWidth="738px" text="Дважды щелкните по значению, которое хотите изменить" type="LabelDesignInfo">
+    <constraints height="17px" left="36px" top="36px" type="MarginConstraintsDesignInfo" width="738px"/>
+  </widget>
+  <widget deletable="false" insertable="false" name="modelGrid" parent="Form" prefHeight="228px" prefWidth="732px" type="DbGridDesignInfo">
+    <column name="colSCHEDULE_OF_TOUR_ID">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="140188596065539" fieldName="SCHEDULE_OF_TOUR_ID"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="colName_of_group">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="140188596065539" fieldName="Name_of_group"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="colName_of_tour">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="140188596065539" fieldName="Name_of_tour"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="colName_of_town">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="140188596065539" fieldName="Name_of_town"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="colStartdate">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="140188596065539" fieldName="Startdate"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="colEnddate">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="140188596065539" fieldName="Enddate"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="colAverage_price">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="140188596065539" fieldName="Average_price"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="140188596065539" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+    <constraints height="228px" left="36px" top="60px" type="MarginConstraintsDesignInfo" width="732px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>
